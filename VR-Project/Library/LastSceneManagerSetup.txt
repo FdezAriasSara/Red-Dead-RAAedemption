@@ -8,6 +8,10 @@ sceneSetups:
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Sherif's office.unity
+  isLoaded: 0
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Blessed are the peacemakers.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
