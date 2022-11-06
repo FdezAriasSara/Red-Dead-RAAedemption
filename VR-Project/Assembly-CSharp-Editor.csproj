@@ -51,9 +51,14 @@
      <Compile Include="Assets\GoogleVR\Editor\InstantPreviewEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrTooltipEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserVisualEditor.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorNode.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorWindow.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrControllerVisualEditor.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\DialogueEditorUtil.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorSettings.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrBuildProcessor.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Editor\NPCConversationEditor.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\Editor\ConversationManagerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\GvrEditorMenu.cs" />
      <Compile Include="Assets\GoogleVR\Editor\Controller\GvrLaserPointerEditor.cs" />
      <Compile Include="Assets\GoogleVR\Editor\EventSystem\GvrPointerScrollInputEditor.cs" />
@@ -292,22 +297,22 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/PackageCache/com.unity.collab-proxy@1.17.0/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -658,67 +663,67 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Google.XR.Cardboard.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Google.XR.Cardboard">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

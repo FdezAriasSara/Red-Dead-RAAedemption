@@ -52,8 +52,11 @@
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerInput.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserVisual.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\AndroidNativeKeyboardProvider.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorConfig.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrActivityHelper.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrEventExecutor.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrXREventsSubscriber.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EmulatorControllerProvider.cs" />
@@ -63,24 +66,32 @@
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaAndroidNativeControllerInputProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerScrollInput.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorClientSocket.cs" />
+     <Compile Include="Assets\Resources\Scripts\TextDialogue.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrVRHelpers.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModule.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\SuppressMemoryAllocationErrorAttribute.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerGraphicRaycaster.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\Internal\InstantPreview.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\AndroidNativeShimControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Internal\EditorCameraOriginDict.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrControllerInputDeviceExtension.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\IGvrArmModelReceiver.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrPointerInputModuleImpl.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\IGvrControllerInputDeviceReceiver.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrBasePointerRaycaster.cs" />
+     <Compile Include="Assets\Resources\Scripts\LookAround.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerState.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrArmModel.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerInputDevice.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\Internal\InstantPreviewControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviders\DummyKeyboardProvider.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrLaserPointer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\PropertyDrawers\GvrInfoDrawer.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardIntent.cs" />
@@ -90,6 +101,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviderFactory.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\InstantPreview\InstantPreviewHelper.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\GvrCardboardHelpers.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerInput.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\UI\GvrDropdown.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\GvrBetaControllerState.cs" />
@@ -101,24 +113,32 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrMathHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrScrollSettings.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\GvrAllEventsTrigger.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorManager.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrControllerVisual.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTrackedController.cs" />
+     <Compile Include="Assets\Resources\Scripts\Movement.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\InputModule\IGvrInputModuleController.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerUtils.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerEventDataExtension.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\GvrEditorEmulator.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\PropertyDrawers\GvrInfo.cs" />
+     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\EmulatorDataTypes.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrExecuteEventsExtension.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\IKeyboardProvider.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Tooltips\GvrControllerTooltipsSimple.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboard.cs" />
      <Compile Include="Assets\GoogleVR\Beta\Scripts\Internal\GvrBetaEditorControllerInputProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Pose3D.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\Internal\GvrCursorHelper.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\Generated\PhoneEvent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviderFactory.cs" />
@@ -131,9 +151,16 @@
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardDelegateBase.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\BlackBull\ReadMe.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
      <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
@@ -141,11 +168,28 @@
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-6DOF.xml" />
      <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrControllerReticle.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
      <None Include="Assets\GoogleVR\Plugins\Android\AndroidManifest-Daydream.xml" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
      <None Include="Assets\GoogleVR\Shaders\Video\VideoUnlitShader.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrController.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\InstantZoomies\HorrorStarterPackFREE\README.txt" />
+     <None Include="Assets\VertexColorFarmAnimals\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -360,7 +404,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
@@ -708,61 +752,61 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.XR.LegacyInputHelpers">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
  </Reference>
  <Reference Include="Unity.XR.Management">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.XR.Management.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Subsystem.Registration">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PlasticSCM.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.SpatialTracking">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Google.XR.Cardboard.Editor">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Google.XR.Cardboard">
- <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAdemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
+ <HintPath>C:/Users/adria/OneDrive/Escritorio/UNIVERSIDAD/Realidad y Accesibilidad Aumentadas/Laboratorio/RedDeadRAADemption/Red-Dead-RAAedemption/VR-Project/Library/ScriptAssemblies/Google.XR.Cardboard.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
