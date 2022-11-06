@@ -658,9 +658,6 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
@@ -670,20 +667,11 @@
     <Reference Include="Unity.XR.Management.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
@@ -694,9 +682,6 @@
     <Reference Include="Unity.PlasticSCM.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Rider.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
@@ -705,6 +690,27 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.XR.Management">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+        <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard.Editor">
         <HintPath>C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Google.XR.Cardboard.Editor.dll</HintPath>
