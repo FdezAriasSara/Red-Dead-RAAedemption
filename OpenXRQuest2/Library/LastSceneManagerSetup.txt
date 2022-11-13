@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Scenes/Blessed are the peacemakers.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
