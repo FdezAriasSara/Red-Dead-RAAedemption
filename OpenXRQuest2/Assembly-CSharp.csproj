@@ -44,10 +44,12 @@
      <Compile Include="Assets\Resources\scripts\MovementWithConversation.cs" />
      <Compile Include="Assets\Resources\scripts\WayPointCharacter.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
+     <Compile Include="Assets\Resources\scripts\LookAround.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
      <Compile Include="Assets\Resources\scripts\TextDialogueTwoOptions.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
+     <Compile Include="Assets\Resources\scripts\Movement.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
      <Compile Include="Assets\Resources\scripts\WayPoint.cs" />
@@ -63,8 +65,7 @@
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
      <Compile Include="Assets\Resources\MartinResources\MovementDialogAndAnim.cs" />
-     <Compile Include="Assets\Resources\scripts\Movement.cs" />
-     <Compile Include="Assets\Resources\scripts\LookAround.cs" />
+     <Compile Include="Assets\Resources\scripts\scriptCuchillos.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
