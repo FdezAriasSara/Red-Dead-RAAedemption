@@ -15,11 +15,11 @@ C:/Users/jorge/Desktop/4 carrera/RAA/TRABAJO-EQUIPO/Red-Dead-RAAedemption/VR-Pro
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62195
+63527
 Successfully changed project path to: C:/Users/jorge/Desktop/4 carrera/RAA/TRABAJO-EQUIPO/Red-Dead-RAAedemption/VR-Project
 C:/Users/jorge/Desktop/4 carrera/RAA/TRABAJO-EQUIPO/Red-Dead-RAAedemption/VR-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 77.46 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 77.60 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,76 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004906 seconds.
+Registered in 0.004838 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.59 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 75.51 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.698 seconds
+- Completed reload, in  0.708 seconds
 Domain Reload Profiling:
-	ReloadAssembly (698ms)
+	ReloadAssembly (708ms)
 		BeginReloadAssembly (90ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (523ms)
+		EndReloadAssembly (531ms)
 			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (161ms)
+			SetupTypeCache (165ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (202ms)
+			SetupLoadedEditorAssemblies (215ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
+				RefreshPlugins (76ms)
 				BeforeProcessingInitializeOnLoad (13ms)
-				ProcessInitializeOnLoadAttributes (95ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012184 seconds.
+Registered in 0.009910 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
+- Completed reload, in  1.210 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1159ms)
-		BeginReloadAssembly (181ms)
+	ReloadAssembly (1212ms)
+		BeginReloadAssembly (185ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (903ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (948ms)
 			LoadAssemblies (133ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (319ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (368ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (110ms)
-				ProcessInitializeOnLoadAttributes (208ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				BeforeProcessingInitializeOnLoad (120ms)
+				ProcessInitializeOnLoadAttributes (211ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -113,14 +113,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1724 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.7 MB.
+Unloading 1758 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 95.3 MB.
+System memory in use after: 95.4 MB.
 
-Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2167.
-Total: 3.148100 ms (FindLiveObjects: 0.150000 ms CreateObjectMapping: 0.069900 ms MarkObjects: 2.803000 ms  DeleteObjects: 0.124000 ms)
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2206.
+Total: 2.922600 ms (FindLiveObjects: 0.153600 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.563400 ms  DeleteObjects: 0.128500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,732 +134,91 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Mecanico.unity
-  artifactKey: Guid(f59d44659eedf4946bcedddb291835fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Mecanico.unity using Guid(f59d44659eedf4946bcedddb291835fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee0d803b69cbe9e64a1dcd130a9d08') in 0.010373 seconds 
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_03.fbx
+  artifactKey: Guid(d04990c8e64b3f644a35f2284011422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_03.fbx using Guid(d04990c8e64b3f644a35f2284011422a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d97547ffc3382c7c7d6130e3ec6407') in 0.145179 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 71.312495 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_04.png
-  artifactKey: Guid(d459f5ad385b5914e9ffc03ab032d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_04.png using Guid(d459f5ad385b5914e9ffc03ab032d0e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bc72fbb37854c15c6cf864d838bd09') in 0.169454 seconds 
+  Time since last request: 0.000210 seconds.
+  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_02_Convex.asset
+  artifactKey: Guid(a2f84dca99e4cf441a1a5fe5e1f8a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_02_Convex.asset using Guid(a2f84dca99e4cf441a1a5fe5e1f8a954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88c7775d3630b6712581831dbb65467f') in 0.035382 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014964 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cactus_01.fbx
-  artifactKey: Guid(1f9bf072818b6294e8989017e96d97bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_01.fbx using Guid(1f9bf072818b6294e8989017e96d97bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72745fac5ac50ff9871fc295d50e7663') in 0.128440 seconds 
+  Time since last request: 0.000188 seconds.
+  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_03_Convex.asset
+  artifactKey: Guid(c5893e56486acd34187217f0b35e4655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_03_Convex.asset using Guid(c5893e56486acd34187217f0b35e4655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b58712908d4313c2e40aa4daaa2cd9') in 0.020051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014292 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx
-  artifactKey: Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Sand_Ground_06.fbx using Guid(5c3d2c7795fda604db6fde541e509fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d3161ab86dd1ca25b02c34f2e68e6e4') in 0.020932 seconds 
+  Time since last request: 0.000401 seconds.
+  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_01_Convex.asset
+  artifactKey: Guid(4ce8ce2638bf21d499bfed3f3c8e7b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_01_Convex.asset using Guid(4ce8ce2638bf21d499bfed3f3c8e7b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fda2cb22c8e09ff690f075af60d11d') in 0.018773 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.043590 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Chair_01.fbx
-  artifactKey: Guid(18577659ee8367546a2b4345536495e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Chair_01.fbx using Guid(18577659ee8367546a2b4345536495e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e1995708712c8a444843a3ece91e0b') in 0.020441 seconds 
+  Time since last request: 0.000198 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_Hanging_01.fbx
+  artifactKey: Guid(30eb3a54d33e072489df33b40ed1af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_Hanging_01.fbx using Guid(30eb3a54d33e072489df33b40ed1af7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c901fec12fc096eea6dd2f26e2df763') in 0.033221 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.008618 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_JailBed_01.fbx
-  artifactKey: Guid(32b6049b7f71d654cb3fe41f2a2eb925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_JailBed_01.fbx using Guid(32b6049b7f71d654cb3fe41f2a2eb925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa2067897c51b001c46e57cf30a442e') in 0.018439 seconds 
+  Time since last request: 0.000516 seconds.
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_01_Convex.asset
+  artifactKey: Guid(efe410e54301fb245b6776fecb82e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_01_Convex.asset using Guid(efe410e54301fb245b6776fecb82e413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4256aaae9416bc72fad926302bf05f') in 0.025649 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.016763 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_12_Convex.asset
-  artifactKey: Guid(ede3ee734738bcc4e81c2d9045bc05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_12_Convex.asset using Guid(ede3ee734738bcc4e81c2d9045bc05fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd058c662ad7ecf0f56be873f4eabb4ea') in 0.019997 seconds 
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_02.fbx
+  artifactKey: Guid(626a1ef407d7e6b419799ad5d5277d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_02.fbx using Guid(626a1ef407d7e6b419799ad5d5277d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd1fe344d1978f02925ae204220bfd1') in 0.037130 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007485 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Barrel_01_Convex 1.asset
-  artifactKey: Guid(1cb91b3841210914097abd9a57d25f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Barrel_01_Convex 1.asset using Guid(1cb91b3841210914097abd9a57d25f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cae0b879806d9d512952207634ba06') in 0.017192 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039379 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Crate_01.fbx
-  artifactKey: Guid(57854fb99ba71af4286b47d5771ce020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Crate_01.fbx using Guid(57854fb99ba71af4286b47d5771ce020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59f3a9ff60bcff3775006fb53799ee0') in 0.023175 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020994 seconds.
-  path: Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_Carriage_01.prefab
-  artifactKey: Guid(28e6d559a2b0949419125f40858f77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_Carriage_01.prefab using Guid(28e6d559a2b0949419125f40858f77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6c7d50650049f8bcf05e6c1a4042e3') in 0.199048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009902 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_03_B.png
-  artifactKey: Guid(935759cd778991a459f94dcf89141ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_03_B.png using Guid(935759cd778991a459f94dcf89141ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be739c0061aff76553d2a81567988da') in 0.065978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021945 seconds.
-  path: Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_Coal_01.prefab
-  artifactKey: Guid(7de9d83e7cf93764d841d97ec6bcad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_Coal_01.prefab using Guid(7de9d83e7cf93764d841d97ec6bcad60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12afd6d670620d4fd5c86c19e37ae67e') in 0.149253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009359 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Suitcase_01.fbx
-  artifactKey: Guid(3cb202f261216ba45bda782f346bc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Suitcase_01.fbx using Guid(3cb202f261216ba45bda782f346bc538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bc973f58dd3feb6ce3eea7381143b92') in 0.027344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008101 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Materials/PolygonWesternFrontier_Texture_01_A.mat
-  artifactKey: Guid(da23a6c2a7ba3e94d978f731b0da222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Materials/PolygonWesternFrontier_Texture_01_A.mat using Guid(da23a6c2a7ba3e94d978f731b0da222b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394be666304e21b8735d38a343460746') in 0.089223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008123 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_05_Convex.asset
-  artifactKey: Guid(038f75e534d666844bcea112ce062286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_05_Convex.asset using Guid(038f75e534d666844bcea112ce062286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61ad351eb4f821e48cf73ec4aced0c9') in 0.013841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007366 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_08_Convex.asset
-  artifactKey: Guid(838fe34d052858341b089da28ad96138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_08_Convex.asset using Guid(838fe34d052858341b089da28ad96138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8292b7044e23300552c65debba070405') in 0.013499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008555 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_01.fbx
-  artifactKey: Guid(023f43de06975d748a2f0b2c56464cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Curve_01.fbx using Guid(023f43de06975d748a2f0b2c56464cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1009eb871ab41e11b68838fec06b2b') in 0.018276 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007960 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Reeds_01_Convex.asset
-  artifactKey: Guid(c2045dfe656bcb74ba002be35eb5e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Reeds_01_Convex.asset using Guid(c2045dfe656bcb74ba002be35eb5e83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b636388b6329a25b6d4801a3072bdd') in 0.013689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021931 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_A.png
-  artifactKey: Guid(a30c0622dc6ccfa4da6f6f1486cf0789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Textures/PolygonWesternFrontier_Texture_01_A.png using Guid(a30c0622dc6ccfa4da6f6f1486cf0789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '186e4eff01a7714f3e092bd09f3cb570') in 0.058039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022696 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_01_A.png
-  artifactKey: Guid(eda681f5b7e10b446a6e23ddf3b74c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_01_A.png using Guid(eda681f5b7e10b446a6e23ddf3b74c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603ce0cf38f2862b751650ec666792bb') in 0.066974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028864 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_06_Convex.asset
-  artifactKey: Guid(675c34dc3b3b90342bc569f74024806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_06_Convex.asset using Guid(675c34dc3b3b90342bc569f74024806a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e36ff74c0e5060bebcd48c699b3574') in 0.014827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016674 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_01.fbx
-  artifactKey: Guid(4ca3f9a3da21db346845f2c3d64a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Wood_Pile_01.fbx using Guid(4ca3f9a3da21db346845f2c3d64a99db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19545464dbac85d76dfb5b0b25e8018b') in 0.020926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027696 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_07_Convex.asset
-  artifactKey: Guid(902610e72accc294ba8e28ddd274d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_07_Convex.asset using Guid(902610e72accc294ba8e28ddd274d635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd103f033f43cc5e7c9cf8b031035d1') in 0.015182 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007986 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Chair_01_Convex 1.asset
-  artifactKey: Guid(ba6f2a32b2f4d18459dc0c9d50615416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Chair_01_Convex 1.asset using Guid(ba6f2a32b2f4d18459dc0c9d50615416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a86aeb0c1348cb2962c56fa900ce44') in 0.018814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019426 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Sack_04_Convex 1.asset
-  artifactKey: Guid(a46f8a31bf4caab4d8570bd9c52f3bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Sack_04_Convex 1.asset using Guid(a46f8a31bf4caab4d8570bd9c52f3bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1275e77f78d0b0fa1d7d204d40e044ab') in 0.013415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007572 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_DeckRail_02_Convex.asset
-  artifactKey: Guid(4eb52837d87e8d04a8d851b27508e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_DeckRail_02_Convex.asset using Guid(4eb52837d87e8d04a8d851b27508e6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f87b0e684a8234cad397f53a8e1c8bf') in 0.013606 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008076 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_03.fbx
-  artifactKey: Guid(72a4df55b7be9824fa801b383a311d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_03.fbx using Guid(72a4df55b7be9824fa801b383a311d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3855dfb676460ac0bed553582324223') in 0.018146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021961 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_06_Convex.asset
-  artifactKey: Guid(0421638e657d63540abdddefb2cbaa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_06_Convex.asset using Guid(0421638e657d63540abdddefb2cbaa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aebf760a7a6b5998e1fb1b87595217') in 0.014474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008494 seconds.
-  path: Assets/PolygonWestern/Models/Colliders/SM_Bld_Tower_02_Collision.fbx
-  artifactKey: Guid(492436408a093bd46a7270dabc81fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/Colliders/SM_Bld_Tower_02_Collision.fbx using Guid(492436408a093bd46a7270dabc81fe23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f23776015685ff8905482af22ce43a5') in 0.018130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022606 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Veh_Train_Carriage_01_Convex 2.asset
-  artifactKey: Guid(d47f8351bde31a1449fb71c6aaea10d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Veh_Train_Carriage_01_Convex 2.asset using Guid(d47f8351bde31a1449fb71c6aaea10d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adc2f255e0b7b534e8a7891c7ca6e7f1') in 0.028981 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008405 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_03.fbx
-  artifactKey: Guid(68a83d28a30556a4b8748cd5d016d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_03.fbx using Guid(68a83d28a30556a4b8748cd5d016d087) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84e6ebece0e53a5032731032864e5ad') in 0.018551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.032680 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_CartWheel_01_Convex.asset
-  artifactKey: Guid(e8c1bf9dffa012043a542de433a760ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_CartWheel_01_Convex.asset using Guid(e8c1bf9dffa012043a542de433a760ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a19dc1b79677a56de0a9a59642fb0f2') in 0.014359 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058894 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_02.fbx
-  artifactKey: Guid(41608841018f37342a9ea15cb07dbfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_02.fbx using Guid(41608841018f37342a9ea15cb07dbfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae80c50f1db6c3d6e3bd572f8cb5e53c') in 0.020406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.030319 seconds.
-  path: Assets/PolygonWestern/Models/Colliders/SM_Veh_Train_01_Collisions.fbx
-  artifactKey: Guid(8660a863147bafe478fa3ab06d94cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/Colliders/SM_Veh_Train_01_Collisions.fbx using Guid(8660a863147bafe478fa3ab06d94cdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef872f88b90acde7716de6bf5efeedc0') in 0.019659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024247 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_01.fbx
-  artifactKey: Guid(585bb6ce4d8140d4aa2a371d45351367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Cap_01.fbx using Guid(585bb6ce4d8140d4aa2a371d45351367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbaa866156c092bceaf70c56d0ab60a') in 0.020029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009570 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cactus_06.fbx
-  artifactKey: Guid(740a5116d3b915b40950674427205d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_06.fbx using Guid(740a5116d3b915b40950674427205d67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab5703e01e0614d98fe693ff962b901') in 0.020002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.064493 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_Metallic.tga
-  artifactKey: Guid(5c160ef581b4e484ca2cb11633500e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_Metallic.tga using Guid(5c160ef581b4e484ca2cb11633500e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96ea398ba06325449ce0fc5fd39d407c') in 0.075477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011685 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_CartWheel_01.fbx
-  artifactKey: Guid(834985d0e9aa21f47b0614a4f326fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_CartWheel_01.fbx using Guid(834985d0e9aa21f47b0614a4f326fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5b277a88bf74763c23099ba04a8a6e') in 0.024756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008840 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_01_Convex.asset
-  artifactKey: Guid(0121a6ce0bd5cd249954d8de61611019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_01_Convex.asset using Guid(0121a6ce0bd5cd249954d8de61611019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac01e1c709e3478444ee68b5c7f20227') in 0.015366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010171 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_02.png
-  artifactKey: Guid(6c88b4dd65148ae45a4464437b3ef2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_02.png using Guid(6c88b4dd65148ae45a4464437b3ef2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8910d475c1d80ac01311413d981413') in 0.060933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009841 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_02_Convex.asset
-  artifactKey: Guid(15169cdb1ca95774099647450bcbf675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_02_Convex.asset using Guid(15169cdb1ca95774099647450bcbf675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a830e5d7a36bfc02bfae8c0e88e2c3') in 0.014021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008563 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Rocks_02.fbx
-  artifactKey: Guid(610c8450e3ceee547b842d29db2b44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Rocks_02.fbx using Guid(610c8450e3ceee547b842d29db2b44ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267be09e11875273fdb60cf528a2a45') in 0.020668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023005 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Coffin_01_Convex.asset
-  artifactKey: Guid(cd75b869c71e9e4428aefbd1aeea2195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Coffin_01_Convex.asset using Guid(cd75b869c71e9e4428aefbd1aeea2195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6659daa7e13c32a646e1301c40bd8418') in 0.018888 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008543 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Barrel_02_Convex 1.asset
-  artifactKey: Guid(7ad90e8c401acae4bb519ce903856230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Barrel_02_Convex 1.asset using Guid(7ad90e8c401acae4bb519ce903856230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b56c7446abc465ad8f232a1fd01b70') in 0.016250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008245 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Fur_Roll_03_Convex 1.asset
-  artifactKey: Guid(b267a14f27740e448a39a5c00314f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Fur_Roll_03_Convex 1.asset using Guid(b267a14f27740e448a39a5c00314f0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a5fcb2fb1bc039a7a5bd1f1238b4b71') in 0.014831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.037703 seconds.
-  path: Assets/PolygonWestern/Models/SM_Veh_Train_Coal_01.fbx
-  artifactKey: Guid(0d9eb056b9818684c9ccf449840d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Veh_Train_Coal_01.fbx using Guid(0d9eb056b9818684c9ccf449840d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edaae5e872aa3c933c598fd70b841b3') in 0.024477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051748 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Suitcase_02.fbx
-  artifactKey: Guid(43c62f0255b93994183387f89447dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Suitcase_02.fbx using Guid(43c62f0255b93994183387f89447dd1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3127f34f287596f6c118371f2dde8aac') in 0.028907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008413 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_01_Convex.asset
-  artifactKey: Guid(c3ace82240837af469e79c61b44032f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mine_Track_Straight_01_Convex.asset using Guid(c3ace82240837af469e79c61b44032f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9376ea09ee069027e8a7860237b5d219') in 0.014391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022000 seconds.
-  path: Assets/PolygonWestern/Textures/Emissive_01.png
-  artifactKey: Guid(680f832a7c934c04fa9a1c56035fca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/Emissive_01.png using Guid(680f832a7c934c04fa9a1c56035fca20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4419de2caa1669407d791aa8e7f369b7') in 0.068551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008915 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Barrel_01.fbx
-  artifactKey: Guid(08209ba1cb62d2944a9ceb46f7b851cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Barrel_01.fbx using Guid(08209ba1cb62d2944a9ceb46f7b851cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711c696627802352beb7201bffbfa5b4') in 0.023448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018353 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_04_Convex.asset
-  artifactKey: Guid(06e959206ebb3ba4c84746a57b116669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Cactus_Large_04_Convex.asset using Guid(06e959206ebb3ba4c84746a57b116669) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df8f69d3b0c9037a3361490a63f453f') in 0.103050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026075 seconds.
-  path: Assets/PolygonWestern/Models/SM_Veh_Train_01.fbx
-  artifactKey: Guid(f4ef47442960c8f418dc6d627fd7fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Veh_Train_01.fbx using Guid(f4ef47442960c8f418dc6d627fd7fccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36d31cdab2963cc52ccb4d265e2ac67d') in 0.216306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042516 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Suitcase_01_Convex.asset
-  artifactKey: Guid(6459e09a700bafe4298bf2bd130d919b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Suitcase_01_Convex.asset using Guid(6459e09a700bafe4298bf2bd130d919b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed072ebe953622a6a3e47d6ac5cb286') in 0.024630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018255 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cactus_12.fbx
-  artifactKey: Guid(b2a04bac26e8b234e99665344ba5e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_12.fbx using Guid(b2a04bac26e8b234e99665344ba5e42d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d216a317f3a6482bdb79f8f60544fd') in 0.026329 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026723 seconds.
-  path: Assets/PolygonWestern/Prefabs/Buildings/SM_Bld_TrainStation_01.prefab
-  artifactKey: Guid(bb18f51fec771554d96d59fff5e6fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Prefabs/Buildings/SM_Bld_TrainStation_01.prefab using Guid(bb18f51fec771554d96d59fff5e6fb3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55805bc96fdcdc36c1b490d5c32adb58') in 0.254901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022568 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_02.fbx
-  artifactKey: Guid(e3b8cca8eb23846499313ea70009d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Fur_Roll_02.fbx using Guid(e3b8cca8eb23846499313ea70009d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9101011bef8f52cd1728b9b5c7ea1cb') in 0.030935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025350 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Coffin_01.fbx
-  artifactKey: Guid(8ef720f53bf71744085e1292b4e6922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Coffin_01.fbx using Guid(8ef720f53bf71744085e1292b4e6922b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61caea278fb10203cc9fb95e7bf3d7d1') in 0.043659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041886 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_01_Convex.asset
-  artifactKey: Guid(d3fbc152be8076f4fbbbdc541eddac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_01_Convex.asset using Guid(d3fbc152be8076f4fbbbdc541eddac49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9d8d4320a769e7d141ce7c30bcc3b9') in 0.027776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010615 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Reeds_01.fbx
-  artifactKey: Guid(4ae0185e05c57c842b7e33170bd3f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Reeds_01.fbx using Guid(4ae0185e05c57c842b7e33170bd3f428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fe20f564202c476871fb82e8c6eb35') in 0.021903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010817 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Straight_01.fbx
-  artifactKey: Guid(31cd4e8791d151d4d98f26b4290bf59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mine_Track_Straight_01.fbx using Guid(31cd4e8791d151d4d98f26b4290bf59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d14756bec49d8f9565c6b044f2f5353') in 0.019930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.036532 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_01_C.png
-  artifactKey: Guid(105f80efe20ead547ab33f2649bd1a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_01_C.png using Guid(105f80efe20ead547ab33f2649bd1a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b1d350625b2d19225aaceab25fac43') in 0.061461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021967 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Wood_Pile_01_Convex.asset
-  artifactKey: Guid(badd67d7a49e979479ae7b44277a18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Wood_Pile_01_Convex.asset using Guid(badd67d7a49e979479ae7b44277a18d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9985bf2d3027fdb78e0f3c329f782dcf') in 0.015686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008612 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_DeckRail_02.fbx
-  artifactKey: Guid(67eeea6980866434bae0acd67f3b53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_DeckRail_02.fbx using Guid(67eeea6980866434bae0acd67f3b53c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ca51df08848d7fdaa6b151ef67d9a5') in 0.019037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.061020 seconds.
-  path: Assets/PolygonWestern/Textures/PolygonWestern_Texture_03.png
-  artifactKey: Guid(b7f7913d478835e4f8d8010a13c8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Textures/PolygonWestern_Texture_03.png using Guid(b7f7913d478835e4f8d8010a13c8546a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277121100485a8fd74e21ba7e61c9f11') in 0.060592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008805 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Fur_Roll_02_Convex 1.asset
-  artifactKey: Guid(f5e93132853279948b4a00ae0f3eaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Fur_Roll_02_Convex 1.asset using Guid(f5e93132853279948b4a00ae0f3eaf41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4dce8a17566e646c287597304a39e12') in 0.014242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.020111 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Suitcase_02_Convex 1.asset
-  artifactKey: Guid(f3f45ac6b86ef0a46aac35cab720ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Suitcase_02_Convex 1.asset using Guid(f3f45ac6b86ef0a46aac35cab720ae1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25911c026ea65125ad82aad37fdf867') in 0.013779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.038706 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_02.fbx
-  artifactKey: Guid(2c8c4306394a5de499de0d78926f75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cliff_Straight_02.fbx using Guid(2c8c4306394a5de499de0d78926f75c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de52fae18ecfd130e88c52fb89b5d8b') in 0.020289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009655 seconds.
-  path: Assets/PolygonWestern/Models/Colliders/SM_Bld_TrainStation_01_Collision.fbx
-  artifactKey: Guid(f9ed51ac5bef6c949a365d3383afc0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/Colliders/SM_Bld_TrainStation_01_Collision.fbx using Guid(f9ed51ac5bef6c949a365d3383afc0fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5015b40515fa2bb8f4aef100c831f35a') in 0.019278 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008606 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_09_Convex.asset
-  artifactKey: Guid(ce0778843a7ba6145a2187095a371162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Env_Cactus_09_Convex.asset using Guid(ce0778843a7ba6145a2187095a371162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2a3f3041d2f97bcf7f8e588028800e') in 0.013996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009080 seconds.
-  path: Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_01.prefab
-  artifactKey: Guid(461adae6d8ea6d74fac73e4bd90066cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Prefabs/Vehicles/SM_Veh_Train_01.prefab using Guid(461adae6d8ea6d74fac73e4bd90066cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0ef4467e48ae62fdcac656f9f99af7') in 0.131832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008811 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Veh_Train_Coal_01_Convex 4.asset
-  artifactKey: Guid(cc1c9a0d59291dc40b70614d3816e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Veh_Train_Coal_01_Convex 4.asset using Guid(cc1c9a0d59291dc40b70614d3816e2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b5550547a2f8f2eae3363785c94ba2') in 0.030696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009270 seconds.
-  path: Assets/PolygonWestern/Models/SM_Prop_Sack_04.fbx
-  artifactKey: Guid(4473ec1dd74f8444aba5c404a385275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Prop_Sack_04.fbx using Guid(4473ec1dd74f8444aba5c404a385275e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754a3de26bc58acfbc35ad0529ff09e') in 0.018766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021385 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_DustPile_Small_04.fbx
-  artifactKey: Guid(b7be53bde0400b642a5f8ff81fdd9a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_DustPile_Small_04.fbx using Guid(b7be53bde0400b642a5f8ff81fdd9a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a2e2033f93c2eb90dc41f74060522') in 0.018129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023351 seconds.
-  path: Assets/PolygonWestern/Prefabs/Buildings/SM_Bld_TrainStation_Platform_01.prefab
-  artifactKey: Guid(762c697a92b450f42b72b636b9301dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Prefabs/Buildings/SM_Bld_TrainStation_Platform_01.prefab using Guid(762c697a92b450f42b72b636b9301dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1465154fc02895af2106740ed891c3') in 0.132313 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009337 seconds.
-  path: Assets/PolygonWestern/Models/SM_Env_Cactus_09.fbx
-  artifactKey: Guid(f0b682afd76cb3e44bcbc60443bf6cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Env_Cactus_09.fbx using Guid(f0b682afd76cb3e44bcbc60443bf6cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221d66c85700cbd9023cab14d29afaeb') in 0.019316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009616 seconds.
-  path: Assets/PolygonWestern/Models/SM_Bld_TrainStation_Platform_01.fbx
-  artifactKey: Guid(bba32133c33cd674e8dee86b29c4b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/SM_Bld_TrainStation_Platform_01.fbx using Guid(bba32133c33cd674e8dee86b29c4b5f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00feaecc923c31a02d85bff9bfe81d2') in 0.018930 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049208 seconds.
-  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_JailBed_01_Convex.asset
-  artifactKey: Guid(59a4e6a31ff92884e9b08c2447eedfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_JailBed_01_Convex.asset using Guid(59a4e6a31ff92884e9b08c2447eedfb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af14d0e9e2eb18a81a1c62efa061ad6') in 0.014507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008572 seconds.
-  path: Assets/PolygonWestern/Models/Colliders/SM_Bld_Cover_01_Collision.fbx
-  artifactKey: Guid(0ba8b75f41194c5478aa48a15f2b8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWestern/Models/Colliders/SM_Bld_Cover_01_Collision.fbx using Guid(0ba8b75f41194c5478aa48a15f2b8b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ed78f72d7e298a1650c5b53dc016e1') in 0.018225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 405.719521 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Female_01.prefab
-  artifactKey: Guid(10f84544be16ae74c9e9cf426210d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Female_01.prefab using Guid(10f84544be16ae74c9e9cf426210d320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '609ced52880b1a8ef134d404e51f9710') in 0.286371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000733 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_04_Convex.asset
-  artifactKey: Guid(8d6394d0d32c6304aa8ac9dff6d8cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_04_Convex.asset using Guid(8d6394d0d32c6304aa8ac9dff6d8cc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165dff716284ef4109cc59ea2fa9b1c4') in 0.168812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000660 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Chimney_01_Convex.asset
-  artifactKey: Guid(e28f33d7b4cef3b4c81d31f9b1a79dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Chimney_01_Convex.asset using Guid(e28f33d7b4cef3b4c81d31f9b1a79dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5972b0eb373db5e38ccfeaba80efe5e') in 0.058862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000872 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Male_01.prefab
-  artifactKey: Guid(44cca74992c7c9244beb12877a22e37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Male_01.prefab using Guid(44cca74992c7c9244beb12877a22e37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886ffe244919224e58352ae9b32d6ac7') in 0.345018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000636 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanChief_Male_01.prefab
-  artifactKey: Guid(53bec25d8f1b3d940891e307bc7cb56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanChief_Male_01.prefab using Guid(53bec25d8f1b3d940891e307bc7cb56f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fb24abaaeb3a5e194dabab913b1995') in 0.229602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_03_Convex.asset
-  artifactKey: Guid(1a6ec2cdba83eb3408c3df62516120f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_03_Convex.asset using Guid(1a6ec2cdba83eb3408c3df62516120f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d0007efef15019581c2dbd81de4fdc') in 0.055575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000602 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab
-  artifactKey: Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_03.prefab using Guid(57b390d00e64a8f41b38fdd42fd2b6d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dd841572d8b2dbaee38ee316ddb44f') in 0.146786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_TowerCorner_01_Convex 6.asset
-  artifactKey: Guid(e81e0f0d493c6874aa88c4a12b7bf41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Fort_TowerCorner_01_Convex 6.asset using Guid(e81e0f0d493c6874aa88c4a12b7bf41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e79b44925a610fa2567b9d1a4b38361') in 0.088254 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Male_02.prefab
-  artifactKey: Guid(6dd2a3233145d71498a233d919f68aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Male_02.prefab using Guid(6dd2a3233145d71498a233d919f68aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc66e30157147b8e9e0f6f53bf22e866') in 0.164841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanElder_Female_01.prefab
-  artifactKey: Guid(da740ceec44642c43b7db9037aa14024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanElder_Female_01.prefab using Guid(da740ceec44642c43b7db9037aa14024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1693ea8ae2fdde6b52d8a45c5ae963e') in 0.140528 seconds 
+  Time since last request: 0.000229 seconds.
+  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_Hanging_01_Convex 1.asset
+  artifactKey: Guid(6cd2271cd3650874a8aac7d59bb7955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_Hanging_01_Convex 1.asset using Guid(6cd2271cd3650874a8aac7d59bb7955c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccbef6f12ee75561d68101f72ff2cac') in 0.032317 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000350 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_03.prefab
-  artifactKey: Guid(09093ff8624662d43a05d585d0c17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_03.prefab using Guid(09093ff8624662d43a05d585d0c17e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f11e1774ce8009dca66e7669fca87c') in 0.121524 seconds 
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_03_Convex.asset
+  artifactKey: Guid(a06b87c0a4330264fbbef57d8ba4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_03_Convex.asset using Guid(a06b87c0a4330264fbbef57d8ba4337c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa69b668fbea0d7ce58145d4eee576d1') in 0.036921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmerican_Female_01.prefab
-  artifactKey: Guid(f4a4844b0c1edce4fadad9ab0d125d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmerican_Female_01.prefab using Guid(f4a4844b0c1edce4fadad9ab0d125d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e4a9babc33a2322e4a83346560a3f2') in 0.100756 seconds 
+  Time since last request: 0.000201 seconds.
+  path: Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_Hanging_01_Convex.asset
+  artifactKey: Guid(383bd9417cd165647aaf01f2b80d4459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/CollisionConvex/SM_Prop_Rope_Hanging_01_Convex.asset using Guid(383bd9417cd165647aaf01f2b80d4459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40882d149872267a9a20c287a9207a3') in 0.192929 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.094493 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_03_Convex 1.asset
-  artifactKey: Guid(fc9818eb7f7578c419fc7b8c115241d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_03_Convex 1.asset using Guid(fc9818eb7f7578c419fc7b8c115241d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a661bab7421736448e3478c5c5937d45') in 2.701309 seconds 
+  Time since last request: 0.000200 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_01.fbx
+  artifactKey: Guid(fec4589b13ba5c44bbdd4ae91470ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_01.fbx using Guid(fec4589b13ba5c44bbdd4ae91470ff0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2df460034412a1d0f2a01b56999fec1') in 0.038661 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.473668 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Tower_01_Convex 1.asset
-  artifactKey: Guid(a94349277ba263c4382fea30349197d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Tower_01_Convex 1.asset using Guid(a94349277ba263c4382fea30349197d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5856d286ed2dae06cfceb0c093ff237') in 11.719098 seconds 
+  Time since last request: 0.000309 seconds.
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_02_Convex.asset
+  artifactKey: Guid(b9b1b5e3385894b4db290e25ac93c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Env_Mound_Slope_02_Convex.asset using Guid(b9b1b5e3385894b4db290e25ac93c301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e5f148b7513beaba1f6fc67b3356ac') in 0.043633 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000334 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_02_Convex.asset
-  artifactKey: Guid(6acdcba09e16d3c4882f27233c67d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_02_Convex.asset using Guid(6acdcba09e16d3c4882f27233c67d0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b0b66dc189814ea0d9e83bcc7b7ad3') in 0.075607 seconds 
+  Time since last request: 0.000329 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_02.fbx
+  artifactKey: Guid(3f42a40fa6681d14daa1ef7194c96a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_02.fbx using Guid(3f42a40fa6681d14daa1ef7194c96a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dd84fe8e228fabc79bc398674f4967') in 0.055872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_02.prefab
-  artifactKey: Guid(4e3c2892f17dcf04396fdb3537b50307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_02.prefab using Guid(4e3c2892f17dcf04396fdb3537b50307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30dbcdd7599f0af5caf7c52a045d5d49') in 0.145433 seconds 
+  Time since last request: 0.000252 seconds.
+  path: Assets/PolygonWestern/Models/SM_Prop_Rope_03.fbx
+  artifactKey: Guid(5435ebbb571f71a45bfb0fa0feaaf5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWestern/Models/SM_Prop_Rope_03.fbx using Guid(5435ebbb571f71a45bfb0fa0feaaf5c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd527dd9560bb75bfcb170f285bb3f999') in 0.043759 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/FixedScaleCharacters/Characters.fbx
-  artifactKey: Guid(9eb1cb64650814445b93f4b540858545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/FixedScaleCharacters/Characters.fbx using Guid(9eb1cb64650814445b93f4b540858545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05064bd454150665d7539f1f4ea0abd2') in 0.742905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_01_Convex.asset
-  artifactKey: Guid(9ce50ce6f3871a549b5627262c97bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Framing_01_Convex.asset using Guid(9ce50ce6f3871a549b5627262c97bef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd72633f05cd5d99fe0c43c3e87278056') in 0.029621 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmerican_Female_01.prefab
-  artifactKey: Guid(e9fcb6c13385bcd44a1f6e7a3839b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmerican_Female_01.prefab using Guid(e9fcb6c13385bcd44a1f6e7a3839b4ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2c7277a21794a8c666fa7332e3a55d') in 0.336956 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002069 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 2.asset
-  artifactKey: Guid(ef191ac645075f84386781f237b51712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 2.asset using Guid(ef191ac645075f84386781f237b51712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6256187771f65af5576785d4614d799a') in 0.181678 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Tnt_Detonator_01_Convex.asset
-  artifactKey: Guid(f4dd647fb5cf38d4597fa7f92c5d717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Tnt_Detonator_01_Convex.asset using Guid(f4dd647fb5cf38d4597fa7f92c5d717a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fac65d5c38a1a472b0544314a3bb6e9') in 0.027260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017027 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanElder_Female_01.prefab
-  artifactKey: Guid(a1896e8f08d4ec6478c27aa1ee12c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanElder_Female_01.prefab using Guid(a1896e8f08d4ec6478c27aa1ee12c187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b98063b9015a3f5139ee7f507a3062cf') in 0.093797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_04_Convex 1.asset
-  artifactKey: Guid(34161a9410063b14ca2c8ee63941beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_04_Convex 1.asset using Guid(34161a9410063b14ca2c8ee63941beba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98b955a5b127b176e6bdd3dc18df5ee') in 0.037538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001281 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Tower_01_Convex.asset
-  artifactKey: Guid(bc31e5929c3d3d84289e8403839c56a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Tower_01_Convex.asset using Guid(bc31e5929c3d3d84289e8403839c56a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04119986e7bdac8395c8f507d632d21d') in 0.022281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 4.asset
-  artifactKey: Guid(cdfc1f8e5adcf624e8e4438a8605a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 4.asset using Guid(cdfc1f8e5adcf624e8e4438a8605a8fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e7c05d38f5a2b7cfb2c7e335321a4d') in 0.067322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001490 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_05_Convex.asset
-  artifactKey: Guid(a972f1135a2d36345827bea770babd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_05_Convex.asset using Guid(a972f1135a2d36345827bea770babd08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927d6c8dc1e24ede3982913cf72f83ad') in 0.029235 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab
-  artifactKey: Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(82c04d2fd21b5dc42a7294a75eaa4436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c550d5901e224f99ec8e42c6467fcde') in 0.094543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/Characters.fbx
-  artifactKey: Guid(72b83be23d80d604bbe50cdfeebcf552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/Characters.fbx using Guid(72b83be23d80d604bbe50cdfeebcf552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a687fb1410cebce2d0e0faaff2879f') in 0.317343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_02.prefab
-  artifactKey: Guid(6a8f21ba83708e943944219ac28b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_02.prefab using Guid(6a8f21ba83708e943944219ac28b3aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c30d3d38ae755866fb0f57849b5bbb') in 0.099592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001380 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Female_01.prefab
-  artifactKey: Guid(665550c0dd38b7f4bb813b293b9efeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_Mexican_Female_01.prefab using Guid(665550c0dd38b7f4bb813b293b9efeaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9352b043804239b14d03b8a0a89bf2fe') in 0.088966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanChief_Male_01.prefab
-  artifactKey: Guid(500945055df0fd644b76902b1e2e4ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanChief_Male_01.prefab using Guid(500945055df0fd644b76902b1e2e4ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c69ffb1f9a5201d3fe8e7321b0c0b') in 0.081722 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex.asset
-  artifactKey: Guid(0eee0ebceb483f8428f7ff63cd73b367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex.asset using Guid(0eee0ebceb483f8428f7ff63cd73b367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1043cb5bb62c23bd2e266d29469506') in 0.026330 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_03_Convex.asset
-  artifactKey: Guid(e5ef2ae9b12072a4b950ee0329972ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_03_Convex.asset using Guid(e5ef2ae9b12072a4b950ee0329972ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968e9fd261e8b7a6c3c44805affcda15') in 0.027474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_TotemPole_01_Convex 1.asset
-  artifactKey: Guid(491056c3325f4e54caf001f3bad0ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_TotemPole_01_Convex 1.asset using Guid(491056c3325f4e54caf001f3bad0ac57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51f4fcefcc51789f1c895964f3774e0') in 0.031627 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab
-  artifactKey: Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_NativeAmericanWarrior_Female_01.prefab using Guid(6c7f9f49f5bfe3b4c8b29a024c4dcdfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d106c3d6594fa5b2254b470a81dd732') in 0.091079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_01.prefab
-  artifactKey: Guid(6c169b51be4ef99489f073426f4bf68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_01.prefab using Guid(6c169b51be4ef99489f073426f4bf68c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6460b9040790035c0ed459b0e09a5340') in 0.085350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Female_01.prefab
-  artifactKey: Guid(f5b6bad2280936a43aa995f321812e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Female_01.prefab using Guid(f5b6bad2280936a43aa995f321812e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c468543d46676624f4bce68c494b0a44') in 0.082758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Tnt_Stick_01_Convex.asset
-  artifactKey: Guid(bea1c818a1e3e2b4fb548f26adf8a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Prop_Tnt_Stick_01_Convex.asset using Guid(bea1c818a1e3e2b4fb548f26adf8a54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4363add80caa045d93136375c84812b') in 0.026296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_02.prefab
-  artifactKey: Guid(00ab987898452b64582d6bf1a5caafd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/Character_Mexican_Male_02.prefab using Guid(00ab987898452b64582d6bf1a5caafd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fd1cd647435212e741e67162e7d20fa') in 0.113709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_02_Convex 1.asset
-  artifactKey: Guid(b91fec086e69693439718b8514b96c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_02_Convex 1.asset using Guid(b91fec086e69693439718b8514b96c1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01bf1e256f58538abe7651fd657ac233') in 0.031136 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 1.asset
-  artifactKey: Guid(190ce153e7203bb44842e324cb22334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 1.asset using Guid(190ce153e7203bb44842e324cb22334a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d46f1ab32b058166ca6ae38b2312ed1') in 0.045863 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Mexican_Wall_Corner_01_Convex 4.asset
-  artifactKey: Guid(0fb59b9f1eb82c047b216a090c637cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Mexican_Wall_Corner_01_Convex 4.asset using Guid(0fb59b9f1eb82c047b216a090c637cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d7e3379402dd88f22a4bf09f910927') in 0.076950 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab
-  artifactKey: Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Prefabs/Characters/FixedScaleCharacters/Character_NativeAmericanWarrior_Male_01.prefab using Guid(05e3035009b0eaf44b0e3cb2a6e2e98e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1822d5bcce1922c5921d7bcd6749b3fa') in 0.083451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 3.asset
-  artifactKey: Guid(0bd1a619e0c731f4fb5c348c22095e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/CollisionConvex/SM_Bld_Quarry_Cover_01_Convex 3.asset using Guid(0bd1a619e0c731f4fb5c348c22095e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b4d03d42db4af2fc70ec10fae6cb77') in 0.052281 seconds 
+  Time since last request: 0.000246 seconds.
+  path: Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_01.fbx
+  artifactKey: Guid(77a805ffa8ce15a4b8d893f209173eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PolygonWesternFrontier/PolygonWesternFrontier/Models/SM_Env_Mound_Slope_01.fbx using Guid(77a805ffa8ce15a4b8d893f209173eeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77a4db3b429b6a4c4d61a58b28234438') in 0.057164 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
