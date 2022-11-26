@@ -36,35 +36,35 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
-     <Compile Include="Assets\Resources\MartinResources\MovementDialogAndAnim.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
-     <Compile Include="Assets\Resources\scripts\Wander.cs" />
-     <Compile Include="Assets\Resources\scripts\LookAround.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
-     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
-     <Compile Include="Assets\Resources\scripts\GazeInput.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Parameter.cs" />
-     <Compile Include="Assets\Resources\scripts\WayPoint.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableNode.cs" />
-     <Compile Include="Assets\Resources\scripts\MovementWithConversation.cs" />
-     <Compile Include="Assets\Resources\scripts\WayPointCharacter.cs" />
-     <Compile Include="Assets\Resources\scripts\AudioDialogue.cs" />
      <Compile Include="Assets\Resources\scripts\TextDialogue.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\ConversationNode.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
+     <Compile Include="Assets\Resources\scripts\Wander.cs" />
+     <Compile Include="Assets\Resources\scripts\MovementWithConversation.cs" />
+     <Compile Include="Assets\Resources\scripts\WayPointCharacter.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\SetParamAction.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Conversation.cs" />
+     <Compile Include="Assets\Resources\scripts\TextDialogueTwoOptions.cs" />
+     <Compile Include="Assets\Resources\scripts\LookAround.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableParameter.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConversation.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableSetParamAction.cs" />
      <Compile Include="Assets\Resources\scripts\Movement.cs" />
+     <Compile Include="Assets\Resources\scripts\WayPoint.cs" />
+     <Compile Include="Assets\Resources\scripts\AudioDialogue.cs" />
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\ConversationManager.cs" />
      <Compile Include="Assets\Resources\scripts\Chase.cs" />
-     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableConnection.cs" />
-     <Compile Include="Assets\Resources\scripts\TextDialogueTwoOptions.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Connection.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\UI\UIConversationButton.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NPCConversation.cs" />
+     <Compile Include="Assets\DialogueEditor\Example\ExampleInputManager.cs" />
+     <Compile Include="Assets\Resources\scripts\GazeInput.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\NodeEventHolder.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\EditableCondition.cs" />
+     <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
+     <Compile Include="Assets\Resources\MartinResources\MovementDialogAndAnim.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -624,94 +624,94 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.OculusQuestSupport">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.OculusQuestSupport.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.CoreUtils.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.CoreUtils">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.CoreUtils.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.ConformanceAutomation">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.ConformanceAutomation.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Interaction.Toolkit.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Interaction.Toolkit.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.OpenXR.Features.RuntimeDebugger.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.OpenXR.Features.RuntimeDebugger.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Oculus">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
+        <HintPath>C:\Users\usuario\Desktop\Red-Dead-RAAedemption\OpenXRQuest2\Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
