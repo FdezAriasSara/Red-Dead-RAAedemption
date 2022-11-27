@@ -138,6 +138,7 @@
      <Compile Include="Assets\DialogueEditor\Assets\Scripts\Condition.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\Emulator\Generated\PhoneEvent.cs" />
+     <Compile Include="Assets\Resources\MartinResources\MovementDialogAndAnim.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\Internal\KeyboardProviderFactory.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\EditorControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrRecenterOnlyController.cs" />
@@ -148,7 +149,6 @@
      <Compile Include="Assets\GoogleVR\Scripts\Keyboard\GvrKeyboardDelegateBase.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\ControllerProviders\DummyControllerProvider.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\GvrUnitySdkVersion.cs" />
-     <Compile Include="Assets\Resources\MartinResources\MovementDialogAndAnim.cs" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
      <None Include="Assets\GoogleVR\Beta\Shaders\GvrSeeThroughUI.shader" />
@@ -378,7 +378,7 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
     <Reference Include="Google.ProtocolBuffers">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Assets\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Assets\GoogleVR\Plugins\Google.ProtocolBuffers.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
@@ -726,61 +726,61 @@
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Data\NetStandard\compat\2.0.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.XR.Management">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Subsystem.Registration.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard.Editor">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Google.XR.Cardboard.Editor.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Google.XR.Cardboard.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Google.XR.Cardboard">
-        <HintPath>C:\Users\usuario\Desktop\Eii\RAA\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Google.XR.Cardboard.dll</HintPath>
+        <HintPath>C:\Users\pelay\OneDrive\Escritorio\Red-Dead-RAAedemption\VR-Project\Library\ScriptAssemblies\Google.XR.Cardboard.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

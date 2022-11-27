@@ -1,13 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/MenuVR.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/OpenWorld.unity
-  isLoaded: 0
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Scenes/Inspector_relajao.unity
+- path: Assets/Scenes/el_enemigo_de_mi_enemigo.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

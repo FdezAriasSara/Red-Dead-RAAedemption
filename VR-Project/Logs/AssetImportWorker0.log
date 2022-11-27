@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.37f1 (8c66806a0c04) revision 9201280'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 16075 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'es' Physical Memory: 16155 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,116 +11,116 @@ C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/usuario/Desktop/Eii/RAA/Red-Dead-RAAedemption/VR-Project
+C:/Users/pelay/OneDrive/Escritorio/Red-Dead-RAAedemption/VR-Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57383
-Successfully changed project path to: C:/Users/usuario/Desktop/Eii/RAA/Red-Dead-RAAedemption/VR-Project
-C:/Users/usuario/Desktop/Eii/RAA/Red-Dead-RAAedemption/VR-Project
+63067
+Successfully changed project path to: C:/Users/pelay/OneDrive/Escritorio/Red-Dead-RAAedemption/VR-Project
+C:/Users/pelay/OneDrive/Escritorio/Red-Dead-RAAedemption/VR-Project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.94 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 87.24 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/usuario/Desktop/Eii/RAA/Red-Dead-RAAedemption/VR-Project/Assets
+[Subsystems] Discovering subsystems at path C:/Users/pelay/OneDrive/Escritorio/Red-Dead-RAAedemption/VR-Project/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Renderer: NVIDIA GeForce GTX 1650 Ti (ID=0x1f95)
     Vendor:   
-    VRAM:     8037 MB
-    Driver:   30.0.101.1404
+    VRAM:     3962 MB
+    Driver:   30.0.15.1278
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56964
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001250 seconds.
+Registered in 0.002839 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 44.15 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 75.92 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.423 seconds
+- Completed reload, in  0.782 seconds
 Domain Reload Profiling:
-	ReloadAssembly (424ms)
-		BeginReloadAssembly (41ms)
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (87ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (338ms)
-			LoadAssemblies (40ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (136ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (203ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (44ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (18ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003132 seconds.
+Registered in 0.004440 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  1.717 seconds
 Domain Reload Profiling:
-	ReloadAssembly (735ms)
-		BeginReloadAssembly (122ms)
+	ReloadAssembly (1718ms)
+		BeginReloadAssembly (216ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (574ms)
-			LoadAssemblies (83ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1435ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (185ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (218ms)
+			SetupTypeCache (555ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (514ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (326ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (1ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1758 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.7 MB.
 System memory in use after: 94.8 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2206.
-Total: 2.572000 ms (FindLiveObjects: 0.109200 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.285700 ms  DeleteObjects: 0.140400 ms)
+Total: 4.217800 ms (FindLiveObjects: 0.174100 ms CreateObjectMapping: 0.092700 ms MarkObjects: 3.771700 ms  DeleteObjects: 0.178200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -129,414 +129,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/DialogueEditor/Assets/DefaultSprites
-  artifactKey: Guid(fec5a618ed4b53b4f9a3b8c5ef2d82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/DefaultSprites using Guid(fec5a618ed4b53b4f9a3b8c5ef2d82f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ab8207a2b90c9e13ccb2463e13e825') in 0.004744 seconds 
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(3194036ae57013046a11fff007166d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(3194036ae57013046a11fff007166d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12d13c482887f4b449af73fdd40a445') in 0.100872 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.029805 seconds.
-  path: Assets/Resources/MartinResources/MovementDialogAndAnim.cs
-  artifactKey: Guid(d7db4adac5349d747b4417534fb88f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MartinResources/MovementDialogAndAnim.cs using Guid(d7db4adac5349d747b4417534fb88f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9556a57d09ff00a32bafb2aad4576c47') in 0.032455 seconds 
+  Time since last request: 30.133090 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(e755a2611d77d204c8a6f7af0a33adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(e755a2611d77d204c8a6f7af0a33adcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree SM_Bld_Single_Front_04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree SM_Env_Cliff_Cap_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '2badc2786fb4dcf5cd1ac5bacded5de2') in 0.242779 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.015314 seconds.
-  path: Assets/Resources/scripts/Wander.cs
-  artifactKey: Guid(5dd2323418d22914f9a2714060a70ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/Wander.cs using Guid(5dd2323418d22914f9a2714060a70ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd38d7b089a79bf0c2f65c830f0f3fd1f') in 0.001788 seconds 
+  Time since last request: 7.582226 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e345978f7df75e841ab88b8ac3ffd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e345978f7df75e841ab88b8ac3ffd65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3606f3737ee5a5f97b5ef638f08138') in 0.007128 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.044825 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs
-  artifactKey: Guid(ba925e4862fc6fd4c8105a6e8bdcac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs using Guid(ba925e4862fc6fd4c8105a6e8bdcac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3baeff5dd1352201ac0f79799929f9b') in 0.001860 seconds 
+  Time since last request: 0.043288 seconds.
+  path: Assets/Scenes/NewLayer.terrainlayer
+  artifactKey: Guid(96205e48c93e5884ea13d744dc881a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/NewLayer.terrainlayer using Guid(96205e48c93e5884ea13d744dc881a1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cace00a3652da8f2554ae9a04608832') in 0.110452 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.003992 seconds.
-  path: Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab
-  artifactKey: Guid(1d48feb1cf04aec499db38c5c2abd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab using Guid(1d48feb1cf04aec499db38c5c2abd76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597f4c6029e501d2f7fea085e8a93ebe') in 0.039467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.031605 seconds.
-  path: Assets/Plugins/Android
-  artifactKey: Guid(522306346dd02f546a0fe369097e6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android using Guid(522306346dd02f546a0fe369097e6369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44da6303d096401a13bcef01927fdc89') in 0.001597 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.036853 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Editor
-  artifactKey: Guid(fd7e384afc0642343a85454ec8f03b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Editor using Guid(fd7e384afc0642343a85454ec8f03b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8430a107bc697d2641b7850df151166e') in 0.001470 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.240181 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableParameter.cs
-  artifactKey: Guid(fe24a1a08deb13f46a25f672af773e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableParameter.cs using Guid(fe24a1a08deb13f46a25f672af773e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f30905df0c2a7c4e063317ec2d5479') in 0.001996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.051895 seconds.
-  path: Assets/Resources/scripts/Movement.cs
-  artifactKey: Guid(877989653d41e7b4ca02c64bdba1e3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/Movement.cs using Guid(877989653d41e7b4ca02c64bdba1e3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7600cbed6be188890b63167f6b30dd') in 0.001667 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003288 seconds.
-  path: Assets/LowlyPoly/Free Stylized Textures/Materials
-  artifactKey: Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Free Stylized Textures/Materials using Guid(be4a79b8d4889a84ba17d42e930993c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ee9256bf25d0f067357189aace08d9') in 0.001782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002896 seconds.
-  path: Assets/DialogueEditor
-  artifactKey: Guid(bb6d3f30bc062a64d88e7ed9816eca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor using Guid(bb6d3f30bc062a64d88e7ed9816eca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8aaa0ccebc44712579010a0b07f96f6') in 0.002840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004754 seconds.
-  path: Assets/Scenes/Inspector_relajao.unity
-  artifactKey: Guid(08d9c429b4aca074591f9c0b638eca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Inspector_relajao.unity using Guid(08d9c429b4aca074591f9c0b638eca3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d5212a17b3791bdf49a1654c4ea15e') in 0.002117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004655 seconds.
-  path: Assets/DialogueEditor/Assets/DefaultSprites/Blank.png
-  artifactKey: Guid(70e433de46068504fa56fcf7f49b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/DefaultSprites/Blank.png using Guid(70e433de46068504fa56fcf7f49b32b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e32f59819db2d32227140729ae8d70') in 0.160336 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028876 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs
-  artifactKey: Guid(6836ccfe657b620409189dab4cfc5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs using Guid(6836ccfe657b620409189dab4cfc5a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d7251a3d966fa634f9c076015ba2cf') in 0.001806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.019578 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(1431a630de24019409454f67d72bca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(1431a630de24019409454f67d72bca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8908aeacb965c9d869e25e0a6438c639') in 0.001941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014984 seconds.
-  path: Assets/LowlyPoly/Free Stylized Textures/Textures
-  artifactKey: Guid(7c5927192dc9bac47bff9abd2bfad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Free Stylized Textures/Textures using Guid(7c5927192dc9bac47bff9abd2bfad271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd1b888061ba09ae7428b528d5af91b') in 0.002046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009944 seconds.
-  path: Assets/Resources/MartinResources/ProstiController.controller
-  artifactKey: Guid(b7aad087a28a80d4791f40d3df1cd0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MartinResources/ProstiController.controller using Guid(b7aad087a28a80d4791f40d3df1cd0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11738bbef9cb8cb5b52ae5e44dfd8e57') in 0.005311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034046 seconds.
-  path: Assets/Resources/Rebuild3D/MazinguerSentao.controller
-  artifactKey: Guid(668058e48f0e2db45b63af6fde85c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Rebuild3D/MazinguerSentao.controller using Guid(668058e48f0e2db45b63af6fde85c255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c7a2cb8b4f1365b7ecb198460fdbf') in 0.003167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003737 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/NPCConversation.cs
-  artifactKey: Guid(83189876d4d389f43b7dd2e925aa112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/NPCConversation.cs using Guid(83189876d4d389f43b7dd2e925aa112e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccccaec78a7d0b32ce9a9c25cb323b0') in 0.002568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022564 seconds.
-  path: Assets/DialogueEditor/Example/ExampleInputManager.cs
-  artifactKey: Guid(c4631f1051d8ac84fac652d4fe4c1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Example/ExampleInputManager.cs using Guid(c4631f1051d8ac84fac652d4fe4c1d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61834315b23aff8178607a128c89bd5') in 0.001839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016033 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/SetParamAction.cs
-  artifactKey: Guid(da1b9e5199a3f614aa225d42f1c85c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/SetParamAction.cs using Guid(da1b9e5199a3f614aa225d42f1c85c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaaca20deafaaef9b8220d7524b517b2') in 0.001716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016410 seconds.
-  path: Assets/Resources/scripts/GazeInput.cs
-  artifactKey: Guid(26755dfc943c9a44facdd2cf7eb74492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/GazeInput.cs using Guid(26755dfc943c9a44facdd2cf7eb74492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a37e4da68baadf8cac713d98a869581') in 0.001732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016995 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/NodeEventHolder.cs
-  artifactKey: Guid(00abedce3cdbbba46bf2d86c9518c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/NodeEventHolder.cs using Guid(00abedce3cdbbba46bf2d86c9518c9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abad9073f17b6e533ed9731f61a10eb') in 0.002179 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002485 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/UI
-  artifactKey: Guid(a5ab8acce042f624690ebe8c26e3a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/UI using Guid(a5ab8acce042f624690ebe8c26e3a8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd5002199418aa1ec2aa91f20e5b78a') in 0.001557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.030092 seconds.
-  path: Assets/DialogueEditor/Example/WizardIcon.png
-  artifactKey: Guid(2c2a5be59b4a36648a911535c6e46ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Example/WizardIcon.png using Guid(2c2a5be59b4a36648a911535c6e46ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452d56ae40a38fb39f957cf5109342b6') in 0.009459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006165 seconds.
-  path: Assets/Resources/scripts/WayPoint.cs
-  artifactKey: Guid(6ee04c01d7edbf64fa8ab3d7ba1c587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/WayPoint.cs using Guid(6ee04c01d7edbf64fa8ab3d7ba1c587f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2000b991069ad9c10e5d27a720ad1d34') in 0.001555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002150 seconds.
-  path: Assets/LowlyPoly/Free Stylized Textures
-  artifactKey: Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Free Stylized Textures using Guid(07a6929d3e5614146a7abb90c8f103f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e767e2413965ccd1a09aabfd54d1253f') in 0.001526 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003083 seconds.
-  path: Assets/Resources/scripts/WayPointCharacter.cs
-  artifactKey: Guid(3d1234200608391478c9c7550a0bb849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/WayPointCharacter.cs using Guid(3d1234200608391478c9c7550a0bb849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8b2d419227ab97b9716201d370fd81') in 0.001451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.057914 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableConversation.cs
-  artifactKey: Guid(bf604bea2524244438cb8f7c28b2da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableConversation.cs using Guid(bf604bea2524244438cb8f7c28b2da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f38a6ee8f611ddf3df52595963dbdc') in 0.001514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.118032 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableCondition.cs
-  artifactKey: Guid(0912dec35a0e7f446b89119b48718c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableCondition.cs using Guid(0912dec35a0e7f446b89119b48718c76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b3c5cabee1dcca0f48f5d724e61960d') in 0.001675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.041278 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Conversation.cs
-  artifactKey: Guid(82e9a334db16d9d4b883e9f324f1925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Conversation.cs using Guid(82e9a334db16d9d4b883e9f324f1925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c42f53d3a5fb33e916d65d6fcb29e') in 0.002209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.069707 seconds.
-  path: Assets/Plugins/Android/gradleTemplate.properties
-  artifactKey: Guid(b285fb7d46dc5d34bbc9f0bf2ac1c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/gradleTemplate.properties using Guid(b285fb7d46dc5d34bbc9f0bf2ac1c07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab021173ceac765bb544b66a67ef701') in 0.010745 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.205678 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs
-  artifactKey: Guid(6337b0fbd89333a4090186be60557f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs using Guid(6337b0fbd89333a4090186be60557f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a362f7ae1119a088a3183fb75ea7a4') in 0.002201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027195 seconds.
-  path: Assets/LowlyPoly
-  artifactKey: Guid(b52c5cdca5043aa4dac64f73ce21ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly using Guid(b52c5cdca5043aa4dac64f73ce21ae08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8defbe3336ed84fadff716b9571ab5') in 0.001731 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003427 seconds.
-  path: Assets/Resources/MartinResources/IdleController.controller
-  artifactKey: Guid(d9c541de72cd7394aae2a0b9e4fe0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MartinResources/IdleController.controller using Guid(d9c541de72cd7394aae2a0b9e4fe0a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df7480ec33a597a759b097b89bcfa85') in 0.002935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004597 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Parameter.cs
-  artifactKey: Guid(939ee7bff254dab47b194309c478e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Parameter.cs using Guid(939ee7bff254dab47b194309c478e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061911585c93929de6f181237af34676') in 0.001992 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005319 seconds.
-  path: Assets/DialogueEditor/DialogueEditorDocumentation.pdf
-  artifactKey: Guid(3331b7b9abc39b14b83c2e4641e4621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/DialogueEditorDocumentation.pdf using Guid(3331b7b9abc39b14b83c2e4641e4621d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fc7a7c21c0758bef79ae6c825a32fe') in 0.005522 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.030001 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Connection.cs
-  artifactKey: Guid(d6d097eeec94fb44fa58a1666b548366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Connection.cs using Guid(d6d097eeec94fb44fa58a1666b548366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec6c26eeec32abb2abe00da3e86e84b') in 0.004882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008359 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableNode.cs
-  artifactKey: Guid(7c81c1b4bd15ae54c96ff25409737277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableNode.cs using Guid(7c81c1b4bd15ae54c96ff25409737277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6866a5afc9add91476f2a98be784b18') in 0.002038 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027201 seconds.
-  path: Assets/Resources/scripts/AudioDialogue.cs
-  artifactKey: Guid(9979928ae216b0a4381755cd5c92a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/AudioDialogue.cs using Guid(9979928ae216b0a4381755cd5c92a908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3618a1f526a10917001b3021b5c0c234') in 0.002218 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.117283 seconds.
-  path: Assets/Resources/Rebuild3D/Mazinguer.jpg
-  artifactKey: Guid(9b98904bcdb62c247905a4e3fd03a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Rebuild3D/Mazinguer.jpg using Guid(9b98904bcdb62c247905a4e3fd03a089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0392e593e40908e6c53a35632c8d0a99') in 0.057719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.056861 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs
-  artifactKey: Guid(28fe614b88daf184a841493ff6bdcd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs using Guid(28fe614b88daf184a841493ff6bdcd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb30818ff02d67dbeb119ddc36345b41') in 0.002376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.017221 seconds.
-  path: Assets/Resources/scripts/Chase.cs
-  artifactKey: Guid(e288ad3ed31053b42b866d4315a50ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/Chase.cs using Guid(e288ad3ed31053b42b866d4315a50ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20eae97e3f2b9627354f13baac64422') in 0.001883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024809 seconds.
-  path: Assets/Resources/scripts/TextDialogueTwoOptions.cs
-  artifactKey: Guid(916b2edfc67e01a4aada908d8bf4ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/TextDialogueTwoOptions.cs using Guid(916b2edfc67e01a4aada908d8bf4ebbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f749c4a178a02056953402f2ae492e') in 0.001872 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014984 seconds.
-  path: Assets/DialogueEditor/ConversationManager.prefab
-  artifactKey: Guid(d9fa78e8c3c4f2b4b8f7f77ca8426cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/ConversationManager.prefab using Guid(d9fa78e8c3c4f2b4b8f7f77ca8426cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d0eea40683054ffbe7f875e1c9bdc2') in 0.007421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011400 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts
-  artifactKey: Guid(4c6eb89fd7eef57428ea82a0c48a4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts using Guid(4c6eb89fd7eef57428ea82a0c48a4b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6321344ebaea56e5778f1c43af963d28') in 0.003308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014068 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs
-  artifactKey: Guid(f83650c2702f5e94398cd90e4888d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs using Guid(f83650c2702f5e94398cd90e4888d38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f72f977f4711f7b058615ea597800f') in 0.001883 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003799 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/UI/Editor/ConversationManagerEditor.cs
-  artifactKey: Guid(aa9eab11447b56c438b2b1769572b758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/UI/Editor/ConversationManagerEditor.cs using Guid(aa9eab11447b56c438b2b1769572b758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98726c55d16c49f04a8678c0f6e8d68d') in 0.002047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016827 seconds.
-  path: Assets/LowlyPoly/Free Stylized Textures/Scene
-  artifactKey: Guid(fc45934d91f0bb04fa3a2efb9039a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Free Stylized Textures/Scene using Guid(fc45934d91f0bb04fa3a2efb9039a337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c346e58ade08c4946f1ecf53d5df3536') in 0.002084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.034003 seconds.
-  path: Assets/Resources/scripts/LookAround.cs
-  artifactKey: Guid(d77da180b2142da40bb06c35d451672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/LookAround.cs using Guid(d77da180b2142da40bb06c35d451672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b9e0e4f5a6d9c99b0a6376968d4e91') in 0.002206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002815 seconds.
-  path: Assets/DialogueEditor/Assets/Prefabs
-  artifactKey: Guid(94964f5e0446d0146b12ef812b01f564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Prefabs using Guid(94964f5e0446d0146b12ef812b01f564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bfd32cd65726c496f8b8c73fb50a5c9') in 0.002098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026863 seconds.
-  path: Assets/DialogueEditor/Example/DialogueEditorExample.unity
-  artifactKey: Guid(79b1d237a9dc75a4db93ee2821a81e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Example/DialogueEditorExample.unity using Guid(79b1d237a9dc75a4db93ee2821a81e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e32cceefa44a70c4f199db85556deb') in 0.001791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.104080 seconds.
-  path: Assets/LowlyPoly/Free Stylized Textures/Scene/Free_Stylized_Textures.unity
-  artifactKey: Guid(bf184b4044fb6df479e752a582722ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/LowlyPoly/Free Stylized Textures/Scene/Free_Stylized_Textures.unity using Guid(bf184b4044fb6df479e752a582722ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff73481db995900806fafaf2d51c4f1') in 0.001664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049695 seconds.
-  path: Assets/DialogueEditor/Assets/DefaultSprites/BackingImage.png
-  artifactKey: Guid(bf566e80557acbc45b9a695fcaa25327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/DefaultSprites/BackingImage.png using Guid(bf566e80557acbc45b9a695fcaa25327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa7cdb2d4bf04c1323feb13107f5b69') in 0.010732 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008754 seconds.
-  path: Assets/DialogueEditor/Assets
-  artifactKey: Guid(09411f9dfed45894f82f1136072d6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets using Guid(09411f9dfed45894f82f1136072d6e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84c9daf4bd475706ecf75065eea41ea') in 0.002097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004455 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorWindow.cs
-  artifactKey: Guid(c3a0a541ab09d9b49a6bf18092909188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorWindow.cs using Guid(c3a0a541ab09d9b49a6bf18092909188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38177ca0ecb5e2605f80bc0171fd6ac') in 0.002131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018343 seconds.
-  path: Assets/Plugins/Android/mainTemplate.gradle
-  artifactKey: Guid(f7015c232b73e2a4fa6307eec238a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins/Android/mainTemplate.gradle using Guid(f7015c232b73e2a4fa6307eec238a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e6dfa8809363dc661989f7d5315379') in 0.004905 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004354 seconds.
-  path: Assets/Resources/scripts/TextDialogue.cs
-  artifactKey: Guid(211f0772a17bafc418933e5445d28832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts/TextDialogue.cs using Guid(211f0772a17bafc418933e5445d28832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90429c43ac6a7dc5e976e201ef2e4670') in 0.001875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018744 seconds.
-  path: Assets/Resources/Rebuild3D
-  artifactKey: Guid(ca75760d9ff2c2c439fda28f57b15eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Rebuild3D using Guid(ca75760d9ff2c2c439fda28f57b15eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6356bf9e9f74a8e73630b8c0ec04e119') in 0.001946 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003517 seconds.
-  path: Assets/DialogueEditor/Example
-  artifactKey: Guid(4248578b3bace6d44a0585b8de900c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Example using Guid(4248578b3bace6d44a0585b8de900c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e986eb1ecfc80a30a7c463dc44ccc1d1') in 0.002291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016857 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/ConversationNode.cs
-  artifactKey: Guid(b1df9c6ac4e40c14587ffbcae658484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/ConversationNode.cs using Guid(b1df9c6ac4e40c14587ffbcae658484e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6c0e3d272ee4b0b78d04ad932b4166') in 0.002302 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.035519 seconds.
-  path: Assets/Resources/scripts
-  artifactKey: Guid(bca30ac27e874ee48ba795a27740cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/scripts using Guid(bca30ac27e874ee48ba795a27740cfdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5c73454746d14b0b98a494feee65ec') in 0.002242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.005490 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Condition.cs
-  artifactKey: Guid(163ee6b33523b9f4c97cb88cd9a737f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Condition.cs using Guid(163ee6b33523b9f4c97cb88cd9a737f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e055e4a780d4c66395dd9bd3f0eb851b') in 0.002223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003791 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/UI/Editor
-  artifactKey: Guid(2372edb1fde85b84fb0fcc31082cc0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/UI/Editor using Guid(2372edb1fde85b84fb0fcc31082cc0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7e68dcddde0816eed792f1d731d260') in 0.002384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.076951 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs
-  artifactKey: Guid(2218c4426fffaab46ac5a0467735500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs using Guid(2218c4426fffaab46ac5a0467735500e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee97fef12fc9313e764ac9663ac50b5') in 0.002168 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.021752 seconds.
-  path: Assets/DialogueEditor/Assets/Scripts/EditableConnection.cs
-  artifactKey: Guid(f8a40399a3a8d4547bf1b2129d650ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Assets/Scripts/EditableConnection.cs using Guid(f8a40399a3a8d4547bf1b2129d650ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc46db1c50f00389bd9ae3468ed30a8') in 0.001825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.004021 seconds.
-  path: Assets/DialogueEditor/Example/ManIcon.png
-  artifactKey: Guid(f71c0dc03d067a342aa16a51674f6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DialogueEditor/Example/ManIcon.png using Guid(f71c0dc03d067a342aa16a51674f6507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c2cff222d4f54010a5c27c07a1ef45') in 0.009480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.022053 seconds.
-  path: Assets/Resources/MartinResources/CharacterWalking.controller
-  artifactKey: Guid(e1a1cb071ea6b0946b293c633cbff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/MartinResources/CharacterWalking.controller using Guid(e1a1cb071ea6b0946b293c633cbff23e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea23d95fc781a3fdd510e44ee8f4b786') in 0.002508 seconds 
+  Time since last request: 14.339768 seconds.
+  path: Assets/Scenes/el_enemigo_de_mi_enemigo.unity
+  artifactKey: Guid(fa6a5c56194b82f46940f9ebc244598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/el_enemigo_de_mi_enemigo.unity using Guid(fa6a5c56194b82f46940f9ebc244598f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22805ba1582d3e2d21bde60aaca33a65') in 0.007958 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
