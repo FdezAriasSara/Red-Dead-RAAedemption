@@ -17,6 +17,21 @@ MonoBehaviour:
   m_AutomaticRunning: 0
   m_Loaders:
   - {fileID: 11400000, guid: a1a5538f495bc47049db7a699f136d15, type: 2}
+  - {fileID: 11400000, guid: e279396966e5ac141b8ba825b25e9c41, type: 2}
+--- !u!114 &-4747844292444982014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+  m_Name: WSA Settings
+  m_EditorClassIdentifier: 
+  m_LoaderManagerInstance: {fileID: 5012137201076092019}
+  m_InitManagerOnStart: 1
 --- !u!114 &-4605826175672963504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,11 +86,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2dc886499c26824283350fa532d087d, type: 3}
   m_Name: XRGeneralSettings
   m_EditorClassIdentifier: 
-  Keys: 01000000070000000d000000
+  Keys: 01000000070000000d0000000e000000
   Values:
   - {fileID: -1413260772657802496}
   - {fileID: -4605826175672963504}
   - {fileID: -2439444812781882149}
+  - {fileID: -4747844292444982014}
 --- !u!114 &874682399754976580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -92,7 +108,7 @@ MonoBehaviour:
   m_AutomaticLoading: 0
   m_AutomaticRunning: 0
   m_Loaders:
-  - {fileID: 11400000, guid: 4b29e70e63f2c4146b276a44dc3621b1, type: 2}
+  - {fileID: 11400000, guid: a1a5538f495bc47049db7a699f136d15, type: 2}
 --- !u!114 &1690470757097146870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -104,6 +120,22 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
   m_Name: WebGL Providers
+  m_EditorClassIdentifier: 
+  m_RequiresSettingsUpdate: 0
+  m_AutomaticLoading: 0
+  m_AutomaticRunning: 0
+  m_Loaders: []
+--- !u!114 &5012137201076092019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+  m_Name: WSA Providers
   m_EditorClassIdentifier: 
   m_RequiresSettingsUpdate: 0
   m_AutomaticLoading: 0
