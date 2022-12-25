@@ -2340,7 +2340,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1453898409058198, guid: ed2f947edb4f7a84eb4b7f095fd00a3a, type: 3}
       propertyPath: m_Name
-      value: SM_Bld_Single_01
+      value: META
+      objectReference: {fileID: 0}
+    - target: {fileID: 1453898409058198, guid: ed2f947edb4f7a84eb4b7f095fd00a3a, type: 3}
+      propertyPath: m_TagString
+      value: Meta
       objectReference: {fileID: 0}
     - target: {fileID: 4812402550793954, guid: ed2f947edb4f7a84eb4b7f095fd00a3a, type: 3}
       propertyPath: m_RootOrder
@@ -4935,15 +4939,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15.634
+      value: 32.64
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.392
+      value: 6.44
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.79
+      value: 21.88
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5171,6 +5175,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1301028403952172, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
   m_PrefabInstance: {fileID: 1944202029}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2109592552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109592551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e2eeb15b9da6e429c2f4ab638d6b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goal: Meta
 --- !u!114 &2109592556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5312,6 +5329,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &2109592559
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109592551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.6717732, y: 0.81818736, z: 0.20565975}
+  m_Center: {x: 0.00035463495, y: 0.57945555, z: 0.010395167}
 --- !u!1001 &2120244284
 PrefabInstance:
   m_ObjectHideFlags: 0
