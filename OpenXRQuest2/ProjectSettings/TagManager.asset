@@ -9,6 +9,12 @@ TagManager:
   - Gate
   - Toro
   - Goal
+  - Lamp
+  - TNT
+  - Explosion
+  - PuntoCaballo
+  - CaballoQueHuye
+  - Granjero
   layers:
   - Default
   - TransparentFX
