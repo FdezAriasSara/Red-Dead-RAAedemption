@@ -19,9 +19,10 @@ public class ObjectFindScript : MonoBehaviour
 
     }
 
-    public void OnControllerColliderHit(ControllerColliderHit hit)
+    public void OnCollisionEnter(Collision collision)
     {
-        if (hit.gameObject.CompareTag(goal))
+        Debug.Log(collision.gameObject);
+        if (collision.gameObject.CompareTag(goal))
         {
             Debug.Log("hola");
             
