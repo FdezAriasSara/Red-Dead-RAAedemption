@@ -7,6 +7,7 @@ public class ObjectFindScript : MonoBehaviour
     // Start is called before the first frame updat
     
     public string goal ="Meta";
+    public Object photo;
 
      void Start()
     {
@@ -21,14 +22,12 @@ public class ObjectFindScript : MonoBehaviour
 
     public void OnCollisionEnter(Collision collision)
     {
-        Debug.Log(collision.gameObject);
+        
         if (collision.gameObject.CompareTag(goal))
         {
-            Debug.Log("hola");
-            
-        }else{
-            Debug.Log("PQ COJONES FALLA");
-        }       
+            Destroy(gameObject,.5f);
+            Destroy(photo,.5f);
+        }    
     }
 }
 
