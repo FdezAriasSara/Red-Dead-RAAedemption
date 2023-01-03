@@ -9,6 +9,7 @@ TagManager:
   - indio
   - wife
   - muyer
+  - objective
   layers:
   - Default
   - TransparentFX
