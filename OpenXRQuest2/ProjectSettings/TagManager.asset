@@ -10,6 +10,8 @@ TagManager:
   - wife
   - muyer
   - objective
+  - fotoWrong
+  - fotoCorrecta
   layers:
   - Default
   - TransparentFX
