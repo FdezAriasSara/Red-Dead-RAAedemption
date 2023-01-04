@@ -5,6 +5,8 @@ using UnityEngine;
 public class DesbloquearPuerta : MonoBehaviour
 {
 
+    public AudioSource bingo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,10 @@ public class DesbloquearPuerta : MonoBehaviour
             GameObject.FindWithTag("Gate").SetActive(false);
             GameObject.FindWithTag("Gate").SetActive(false);
             GameObject.FindWithTag("Key").SetActive(false);
+
+
+            // Prota dice algo?
+            bingo.Play();
         }
     }
 }
