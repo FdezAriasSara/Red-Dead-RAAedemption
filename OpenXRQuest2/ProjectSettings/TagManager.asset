@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Animal
+  - PuntoCaballo
+  - Explosion
+  - Goal
+  - CaballoQueHuye
+  - TNT
+  - Granjero
+  - Lamp
+  - Gate
+  - Indications
   layers:
   - Default
   - TransparentFX

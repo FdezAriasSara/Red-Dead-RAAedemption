@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Inspector_relajao.unity
     guid: 08d9c429b4aca074591f9c0b638eca3f
+  - enabled: 1
+    path: Assets/Scenes/Blessed are the peacemakers.unity
+    guid: da88c2f15f690444298b0de68658b367
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 822989ffdd053422b8bf1ca9286acedc, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: aeb545b74077a5148ba7a8ab06511dfc, type: 2}
