@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Inspector_relajao.unity
     guid: 08d9c429b4aca074591f9c0b638eca3f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/mainScene.unity
-    guid: 763adb741462701429ebd10c31f20fab
+    guid: b02577a54950ef949a2fcd9d37a1d40c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 822989ffdd053422b8bf1ca9286acedc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6075631f6309e4e4c800d6b6793b4737, type: 2}

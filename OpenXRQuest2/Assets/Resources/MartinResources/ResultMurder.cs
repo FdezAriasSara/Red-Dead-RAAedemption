@@ -12,6 +12,8 @@ public class ResultMurder : MonoBehaviour
     public AudioSource audioMalaEleccion;
     public AudioSource audioBuenaEleccion;
 
+    bool reproducido = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,11 @@ public class ResultMurder : MonoBehaviour
         if(collider.gameObject.tag == "fotoCorrecta"){
             Debug.Log("Colision con foto correcta");
             
-            StartCoroutine(playCorrectSound());
+            if(reproducido == false){
+                reproducido = true;
+                StartCoroutine(playCorrectSound());
+                
+            }
 
         }else if(collider.gameObject.tag == "fotoWrong"){
             
