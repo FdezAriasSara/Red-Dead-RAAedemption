@@ -280,9 +280,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95a9d53a47b8a354ea76554a961afd4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 120
+  timer: 500
   textoTimer: {fileID: 1970696528}
-  nextScene: Menu
 --- !u!4 &80244038
 Transform:
   m_ObjectHideFlags: 0
@@ -2428,15 +2427,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4840291406134846, guid: cb9c10d259c6ad14ea2e8ef9e059bf02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -27.34
+      value: -26.57
       objectReference: {fileID: 0}
     - target: {fileID: 4840291406134846, guid: cb9c10d259c6ad14ea2e8ef9e059bf02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.58
+      value: 0.49
       objectReference: {fileID: 0}
     - target: {fileID: 4840291406134846, guid: cb9c10d259c6ad14ea2e8ef9e059bf02, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 12.81
+      value: 12.58
       objectReference: {fileID: 0}
     - target: {fileID: 4840291406134846, guid: cb9c10d259c6ad14ea2e8ef9e059bf02, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4207,15 +4206,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4625245937817906, guid: 02c3b7988f756aa4990d3c18a4ac7a5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.63
+      value: -14.08
       objectReference: {fileID: 0}
     - target: {fileID: 4625245937817906, guid: 02c3b7988f756aa4990d3c18a4ac7a5f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.78
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 4625245937817906, guid: 02c3b7988f756aa4990d3c18a4ac7a5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.82
+      value: 3.66
       objectReference: {fileID: 0}
     - target: {fileID: 4625245937817906, guid: 02c3b7988f756aa4990d3c18a4ac7a5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4782,9 +4781,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 200f087502bf58d48bedc64d57ddf690, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  object1: escalera
-  object2: maletin
-  object3: rail
+  object1: SM_Prop_DeckRail_02
+  object2: SM_Prop_Suitcase_01 (2)
+  object3: SM_Env_Mine_Track_Straight_01
+  nextScene: 
 --- !u!1001 &1607255113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4838,6 +4838,107 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 879a8d323fc98e145966106e9d2018a3, type: 3}
+--- !u!1 &1639193830 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7313654230448209575, guid: 895f6f3c2d334633b5800312285058d2, type: 3}
+  m_PrefabInstance: {fileID: 840553896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1639193832
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639193830}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: b3cef79c2bcc01e4d8ddeed4d404d0a7, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &1643738045
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5176,15 +5277,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 31.08
+      value: 16.08
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.34
+      value: 4.46
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 21.82
+      value: -1.34
       objectReference: {fileID: 0}
     - target: {fileID: 4998100590352878, guid: 64f0b8c5569ec2545afa8ab99730e5a1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5273,7 +5374,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 300
+  m_text: 500
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

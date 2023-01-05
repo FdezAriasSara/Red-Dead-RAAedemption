@@ -12,7 +12,6 @@ public class Timer : MonoBehaviour
     public float timer = 0;
 
     public TextMeshProUGUI textoTimer;
-    public string nextScene = "Menu"; 
 
     // Update is called once per frame
     void Update()
@@ -22,9 +21,10 @@ public class Timer : MonoBehaviour
 
         textoTimer.text = "" + timer.ToString("f1");
 
-        if (timer == 0)
+        if (timer <= 0.0)
         {
-            SceneManager.LoadScene(nextScene);
+            Scene scene = SceneManager.GetActiveScene(); 
+            SceneManager.LoadScene(scene.name);
         }
     }
 }
