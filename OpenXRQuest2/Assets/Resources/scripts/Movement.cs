@@ -11,6 +11,9 @@ using System.Configuration.Assemblies;
 ///   Conversation update:
 ///            Martin Beltran Diaz
 ///            A. Sito Martinez Rodriguez
+
+///--------------------------------
+///   Author: Victor Alvarez, Ph.D.
 ///   University of Oviedo, Spain
 ///--------------------------------
 
@@ -36,7 +39,7 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Freezes character movement while a conversation is happening 
+        // Freezes character movement while a conversation is happening
         if (ConversationManager.Instance == null || ((ConversationManager.Instance != null)
                                             & !ConversationManager.Instance.IsConversationActive))
         {
@@ -52,6 +55,11 @@ public class Movement : MonoBehaviour
             velocity.y += gravity * Time.deltaTime;
             controller.Move(velocity * Time.deltaTime);
         }
+        if (Input.GetButtonDown("Jump"))
+            velocity.y = Mathf.Sqrt (jumpHeight * -2f * gravity);
+
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
     }
 
     public void OnControllerColliderHit(ControllerColliderHit hit)
