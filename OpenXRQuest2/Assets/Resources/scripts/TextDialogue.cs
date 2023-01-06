@@ -6,21 +6,10 @@ using System.Configuration.Assemblies;
 
 public class TextDialogue : MonoBehaviour
 {
-    public NPCConversation myConversation;
-// IMPORTANT: This Script is a component of the PLAYER
-// It includes two NPCs and conversations, adapt it to the number of NPCs and conversations in your scene.
-// Change: Class properties and methods OnTriggerEnter and OnTriggerExit.
-
-///--------------------------------
-///   Author: Victor Alvarez, Ph.D.
-///   University of Oviedo, Spain
-///--------------------------------
-
-public class TextDialogue : MonoBehaviour
-{
     // * Class properties for two NPCs and conversations *
     public string NPC1Tag, NPC2Tag;
     public NPCConversation NPC1Conversation, NPC2Conversation;
+    public NPCConversation myConversation;
 
     private float sensitivity = 0.18f;
     private float axisTimer, verticalAxis = 0f;
@@ -78,7 +67,6 @@ public class TextDialogue : MonoBehaviour
             {
                 ConversationManager.Instance.PressSelectedOption();
                 axisTimer = 0;
-                return;
             }
 
             axisTimer += Time.deltaTime;
@@ -99,7 +87,7 @@ public class TextDialogue : MonoBehaviour
         {
             ConversationManager.Instance.EndConversation();
         }
-    }
+    
        // * Starts conversation for two NPCs
 
         if(collider.gameObject.CompareTag(NPC1Tag))
@@ -111,15 +99,12 @@ public class TextDialogue : MonoBehaviour
         {
             ConversationManager.Instance.StartConversation(NPC2Conversation);
         }
-    }
 
-     void OnTriggerExit (Collider collider)
-     {
-       // * Ends conversation for two NPCs
+        // * Ends conversation for two NPCs
 
-        if(collider.gameObject.CompareTag(NPC1Tag) || collider.gameObject.CompareTag(NPC2Tag))
+        if (collider.gameObject.CompareTag(NPC1Tag) || collider.gameObject.CompareTag(NPC2Tag))
         {
             ConversationManager.Instance.EndConversation();
         }
-     }
+    }
 }
