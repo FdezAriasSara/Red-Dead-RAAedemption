@@ -8,13 +8,14 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Inspector_relajao.unity
     guid: 08d9c429b4aca074591f9c0b638eca3f
-  - enabled: 0
-    path: Assets/Scenes/mainScene.unity
-    guid: 763adb741462701429ebd10c31f20fab
+  - enabled: 1
+    path: Assets/Scenes/EscenaToro.unity
+    guid: cc60e6ba70375cf4da098f1906a0d2d8
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 822989ffdd053422b8bf1ca9286acedc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6075631f6309e4e4c800d6b6793b4737, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 002975ab029b846038a24de5b3888e2f, type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: c9e0f1a6319529842b0a3e68456aff4b, type: 2}
