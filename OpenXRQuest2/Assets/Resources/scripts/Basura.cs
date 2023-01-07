@@ -1,7 +1,7 @@
+using System.Timers;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
-using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -59,13 +59,25 @@ public class Basura : MonoBehaviour
     }
     private void taskSuccess()
     {
+       
         //se abre la puerta
         GameObject puerta = GameObject.FindGameObjectsWithTag("puertaRefugio")[0];
         puerta.transform.Rotate(0,90.0f,0);
         //se muestra el mensaje de victoria
         TrashMsg.text = "Misión superada. Busca pistas en el interior del edificio.";
-        Thread.Sleep(7000);
+        Timer textDisplayTimer=new Timer(5000);
+        textDisplayTimer.Elapsed+=HideTextAfterTime;
+        textDisplayTimer.Enabled=true;
+        textDisplayTimer.Start();
+        
+    }
+    /**
+    Victory text is hidden after 5 seconds being displayed.
+    
+    */ 
+    private void HideTextAfterTime(object sender,ElapsedEventArgs e){
         TrashMsg.text = "";
+
     }
     /**
 
