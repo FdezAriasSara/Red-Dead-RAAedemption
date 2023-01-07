@@ -27,6 +27,8 @@ TagManager:
   - basura3
   - basura4
   - puertaRefugio
+  - PlayerBody
+  - PlayerRay
   layers:
   - Default
   - TransparentFX
