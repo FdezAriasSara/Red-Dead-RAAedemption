@@ -75,3 +75,4 @@ crashlytics-build.properties
 /VR-Project/Library/
 .log
 .apk
+.meta
