@@ -1233,6 +1233,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mazinguer
       objectReference: {fileID: 0}
+    - target: {fileID: 2106145266610383287, guid: 72dae606755a3a84abfcc6acd0770e71, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 80375fe640d046e4cb0c882068b28818, type: 2}
     - target: {fileID: 5323162407277330719, guid: 72dae606755a3a84abfcc6acd0770e71, type: 3}
       propertyPath: m_Name
       value: Mazinguer
