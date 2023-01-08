@@ -79,29 +79,7 @@ public class Basura : MonoBehaviour
         TrashMsg.text = "";
 
     }
-    /**
-
-    void OnCollisionEnter(Collision collision)
-    {
-        Debug.Log("DETECTA COLISION");
-        string trashObjPattern="basura_[0-9]+";
-        string tagStr=collision.gameObject.tag;
-        Debug.Log("DETECTA TAG: "+tagStr);
-        if(Regex.Match(tagStr,trashObjPattern,RegexOptions.IgnoreCase).Success){
-         Debug.Log("matcheo TAG: "+tagStr);
-         this.UpdateResult(); 
-         if (left > 0 && inside < 3)
-            {
-            left -= 1;
-            inside += 1;
-            Destroy(collision.gameObject);
-          }
-         this.UpdateResult(); //lo llamo aqui para evitar que se muestre antes del minijuego
-
-        }
-       
-    }
-     */
+    
     private void UpdateResult()
     {
         TrashMsg.text = "Elementos por recoger: " + left + "\n" + " Recogidos : " + inside;

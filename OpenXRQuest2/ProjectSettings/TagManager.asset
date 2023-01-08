@@ -37,6 +37,10 @@ TagManager:
   - Posicion
   - FuegoTotem
   - ambience
+  - ambienceWes
+  - ambienceMagic
+  - cerrarCamino
+  - chaman
   layers:
   - Default
   - TransparentFX

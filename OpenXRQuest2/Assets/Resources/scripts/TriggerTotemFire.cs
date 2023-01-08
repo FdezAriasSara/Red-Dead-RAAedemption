@@ -31,7 +31,7 @@ public class TriggerTotemFire : MonoBehaviour
     /**
     *El fuego desaparecerá al quitar la calavera del altar.
     */
-    void OnTriggerLeave(Collider collider)
+    void OnTriggerExit(Collider collider)
     {
         displayElements(false);
 
@@ -40,7 +40,7 @@ public class TriggerTotemFire : MonoBehaviour
 
     private void displayElements(bool display)
     {
-        GameObject[] fireObjects = GameObject.FindGameObjectsWithTag("Respawn");
+        GameObject[] fireObjects = GameObject.FindGameObjectsWithTag("FuegoTotem");
         foreach (var fire in fireObjects)
         {
             fire.SetActive(display);
