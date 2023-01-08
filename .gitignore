@@ -75,5 +75,3 @@ crashlytics-build.properties
 /OpenXRQuest2/Library/
 /VR-Project/Library/
 *.log
-*.apk
-*.meta
