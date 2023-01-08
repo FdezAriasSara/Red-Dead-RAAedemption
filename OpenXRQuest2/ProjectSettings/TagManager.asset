@@ -29,6 +29,10 @@ TagManager:
   - puertaRefugio
   - PlayerBody
   - PlayerRay
+  - TourchSpot
+  - Antorcha
+  - TotemFinal
+  - FXHechizo
   layers:
   - Default
   - TransparentFX
