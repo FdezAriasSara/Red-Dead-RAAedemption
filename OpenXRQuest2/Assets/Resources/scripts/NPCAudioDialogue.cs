@@ -14,6 +14,7 @@ public class NPCAudioDialogue : MonoBehaviour
     public AudioSource audioHello, audioGoodbye;
     public GameObject npc;
     private Boolean audioHelloWasPlayed = false;
+    private Boolean audioGoodByeWasPlayed = false;
     private Animator animator;
 
     // Start is called before the first frame update
@@ -28,11 +29,8 @@ public class NPCAudioDialogue : MonoBehaviour
     void OnTriggerEnter(Collider collider)
     {
         if(collider.gameObject.CompareTag("Player") && !audioHelloWasPlayed)
-        {
-          
-            if (audioGoodbye.isPlaying)
-                audioGoodbye.Stop();
-          
+        {         
+                    
             audioHello.Play();
             audioHelloWasPlayed = true;
         }
@@ -40,10 +38,12 @@ public class NPCAudioDialogue : MonoBehaviour
 
     void OnTriggerExit(Collider collider)
     {
-        if(collider.gameObject.CompareTag("Player") && audioHelloWasPlayed)
+        if(collider.gameObject.CompareTag("Player") && !audioGoodByeWasPlayed)
         {
-            if (audioHello.isPlaying)
-                audioHello.Stop();
+            while(audioHello.isPlaying){
+                //espera a que acabe
+            }
+                
 
             StartCoroutine(SayGoodBye());
         }
@@ -51,10 +51,10 @@ public class NPCAudioDialogue : MonoBehaviour
 
     IEnumerator SayGoodBye()
     {
-      
-        audioGoodbye.Play();
+         audioGoodbye.Play();
+         audioGoodByeWasPlayed = true;
         yield return new WaitUntil(()=>audioGoodbye.isPlaying == false);
-        npc.SetActive(false);
+      
     }   
 
 }
