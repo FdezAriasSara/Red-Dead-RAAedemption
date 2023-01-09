@@ -8703,12 +8703,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1233254026376546, guid: b6ac78dbb6751514392e2f44f82cc21f, type: 3}
   m_PrefabInstance: {fileID: 17603166}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &652567978 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4794637815487418, guid: b6ac78dbb6751514392e2f44f82cc21f, type: 3}
-  m_PrefabInstance: {fileID: 17603166}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &652567979
+--- !u!114 &652567976
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8717,25 +8712,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 652567975}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b19f8135ceb336d4ab51ec8883148280, type: 3}
+  m_Script: {fileID: 11500000, guid: 68cd52f89d1d26241af6fb3512022494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &652567980
-CircleCollider2D:
+  elementsToSpawn: {fileID: 1270810609}
+  expectedTag: Player
+--- !u!4 &652567978 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4794637815487418, guid: b6ac78dbb6751514392e2f44f82cc21f, type: 3}
+  m_PrefabInstance: {fileID: 17603166}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &652567980
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652567975}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.42
+  m_Radius: 0.87449694
+  m_Center: {x: 0, y: 0.37449694, z: 0}
 --- !u!4 &656733244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4366878018296330, guid: 48d98ed1a3ee61c40b5e93ec9ce16e5f, type: 3}
@@ -13378,7 +13377,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0779709, y: 0.5479668, z: 0.66518855}
   m_Center: {x: 0.008318305, y: 0.26761577, z: -0.0004928559}
---- !u!114 &1090266613
+--- !u!114 &1090266610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -13387,10 +13386,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1090266608}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e41b485ca39b6a34a8f0d783ba59c4aa, type: 3}
+  m_Script: {fileID: 11500000, guid: 68cd52f89d1d26241af6fb3512022494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fuegoTotems: {fileID: 399082304}
+  elementsToSpawn: {fileID: 399082304}
+  expectedTag: Ofrenda
 --- !u!4 &1090857779 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4040119161413390, guid: 1bfe78583c75cef46ab918d2eb2ae905, type: 3}

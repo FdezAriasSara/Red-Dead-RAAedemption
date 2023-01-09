@@ -8,12 +8,15 @@ using UnityEngine;
 *                                         *
 *******************************************/
 /**
-   Este script hace que se muestre el fuego bajo los totems del altar , aasí como la posición que el jugador debe adquirir para que se muestren las animaciones del hechizo y se termine la misión.
-   */
-public class TriggerTotemFire : MonoBehaviour
+ *  Este script hace que se muestre el fuego bajo los totems del altar , aasí como la posición que el jugador debe adquirir para que se muestren las animaciones del hechizo y se termine la misión.
+    *Cuando el jugador entre en el circulo que indica la posición que debe ocupar en el ritual, se mostrarán los diversos efectos simulando "magia".
+    */
+public class TriggerFuneralMagic : MonoBehaviour
 {
-    public GameObject fuegoTotems;
+    public GameObject elementsToSpawn;
+    public string expectedTag;
     /**
+    *
     *El fuego aparecerá al poner  la calavera en el altar. Aparecerá también , el marcador de la posición que el jugador debe ocupar.
     */
     void OnTriggerStay(Collider collider)
@@ -22,7 +25,7 @@ public class TriggerTotemFire : MonoBehaviour
 
         string tagStr = collider.gameObject.tag;
 
-        if (tagStr.Equals("Ofrenda"))
+        if (tagStr.Equals(expectedTag))
         {
             displayElements(true);
         }
@@ -41,8 +44,8 @@ public class TriggerTotemFire : MonoBehaviour
 
     private void displayElements(bool display)
     {
-      
-            fuegoTotems.SetActive(display);
-        
+
+        elementsToSpawn.SetActive(display);
+
     }
 }
