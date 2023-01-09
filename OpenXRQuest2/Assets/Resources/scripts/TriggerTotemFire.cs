@@ -12,6 +12,7 @@ using UnityEngine;
    */
 public class TriggerTotemFire : MonoBehaviour
 {
+    public GameObject fuegoTotems;
     /**
     *El fuego aparecerá al poner  la calavera en el altar. Aparecerá también , el marcador de la posición que el jugador debe ocupar.
     */
@@ -40,12 +41,8 @@ public class TriggerTotemFire : MonoBehaviour
 
     private void displayElements(bool display)
     {
-        GameObject[] fireObjects = GameObject.FindGameObjectsWithTag("FuegoTotem");
-        foreach (var fire in fireObjects)
-        {
-            fire.SetActive(display);
-        }
-        GameObject playerPosition = GameObject.FindGameObjectsWithTag("PlayerPosition")[0];
-        playerPosition.SetActive(display);
+      
+            fuegoTotems.SetActive(display);
+        
     }
 }
