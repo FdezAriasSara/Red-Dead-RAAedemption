@@ -11,6 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2020.3.37f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/Sara/Desktop/Universidad/4-cuarto curso/RAA/Red-Dead-RAAedemption/OpenXRQuest2
 -logFile
 Logs/AssetImportWorker0.log
@@ -24,6 +25,21 @@ Preloading 2 native plugins for Editor in 2.27 ms.
 Initialize engine version: 2020.3.37f1 (8c66806a0c04)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/Sara/Desktop/Universidad/4-cuarto curso/RAA/Red-Dead-RAAedemption/OpenXRQuest2/Assets
+=======
+C:/Users/Sara/Desktop/RAA/Red-Dead-RAAedemption/OpenXRQuest2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58686
+Successfully changed project path to: C:/Users/Sara/Desktop/RAA/Red-Dead-RAAedemption/OpenXRQuest2
+C:/Users/Sara/Desktop/RAA/Red-Dead-RAAedemption/OpenXRQuest2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 468.40 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 13.99 ms.
+Initialize engine version: 2020.3.37f1 (8c66806a0c04)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sara/Desktop/RAA/Red-Dead-RAAedemption/OpenXRQuest2/Assets
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,11 +51,16 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.002168 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
@@ -50,11 +71,24 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (705ms)
 		BeginReloadAssembly (73ms)
+=======
+Registered in 0.004197 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 83.23 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.17 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (980ms)
+		BeginReloadAssembly (214ms)
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (552ms)
 			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -69,25 +103,55 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (14ms)
 				ProcessInitializeOnLoadAttributes (92ms)
 				ProcessInitializeOnLoadMethodAttributes (29ms)
+=======
+		EndReloadAssembly (675ms)
+			LoadAssemblies (214ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (341ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (80ms)
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.011489 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 93.50 ms, found 17 plugins.
 Preloading 2 native plugins for Editor in 0.17 ms.
+=======
+Registered in 0.024890 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.98 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+<<<<<<< HEAD
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:265 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Sara\Desktop\Universidad\4-cuarto curso\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:250 
+=======
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Sara\Desktop\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:265 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Sara\Desktop\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:250 
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -101,6 +165,7 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.307 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1310ms)
@@ -124,6 +189,31 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (100ms)
 				ProcessInitializeOnLoadAttributes (245ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
+=======
+- Completed reload, in  2.989 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2991ms)
+		BeginReloadAssembly (320ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (2540ms)
+			LoadAssemblies (1472ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (425ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (507ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (95ms)
+				ProcessInitializeOnLoadAttributes (286ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -131,6 +221,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 1.20 ms, found 17 plugins.
 Preloading 2 native plugins for Editor in 0.14 ms.
@@ -140,6 +231,17 @@ System memory in use after: 129.5 MB.
 
 Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3132.
 Total: 3.530600 ms (FindLiveObjects: 0.259200 ms CreateObjectMapping: 0.135500 ms MarkObjects: 2.977100 ms  DeleteObjects: 0.157900 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.14 ms.
+Unloading 2684 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.0 MB.
+System memory in use after: 127.2 MB.
+
+Unloading 39 unused Assets to reduce memory usage. Loaded Objects now: 3126.
+Total: 3.851400 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.178000 ms MarkObjects: 3.284400 ms  DeleteObjects: 0.130300 ms)
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -154,6 +256,182 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   path: Assets/GameFactory_Fire Tourch Mech
   artifactKey: Guid(2342040bbd8612346b069acd553acfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/GameFactory_Fire Tourch Mech using Guid(2342040bbd8612346b069acd553acfb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c0cb49559b5997f629d70de32b6c35') in 0.009747 seconds 
+=======
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/adios-mex.wav
+  artifactKey: Guid(267026227f94a71419988dcae9ae6fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/adios-mex.wav using Guid(267026227f94a71419988dcae9ae6fd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1799b1daf1a81658cb14554be71bfe') in 0.133890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/girl-background-convo-94227.mp3
+  artifactKey: Guid(05780ad60dacd4a4692dc2209c83f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/girl-background-convo-94227.mp3 using Guid(05780ad60dacd4a4692dc2209c83f24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632080f2a2ef3b95c7ff55d08e45f785') in 0.019743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Spirit_of_the_Shaman_The_Calling.mp3
+  artifactKey: Guid(b849fe65d8ce98e478f770587447b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Spirit_of_the_Shaman_The_Calling.mp3 using Guid(b849fe65d8ce98e478f770587447b24e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd01d8ae1ddbe718945439834a611b963') in 0.017288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/InicioMujer.mp3
+  artifactKey: Guid(af751b06df09b1648bad8ee80a9c7932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/InicioMujer.mp3 using Guid(af751b06df09b1648bad8ee80a9c7932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14bb264d6b3608cc7851dbd7443e687') in 0.023298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Epic_Wild_Western_Music_Billy_the_Kid.mp3
+  artifactKey: Guid(41b446d74650c0a47beb22ef5ed70510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Epic_Wild_Western_Music_Billy_the_Kid.mp3 using Guid(41b446d74650c0a47beb22ef5ed70510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631fe1f6c3b13d78c9c5240e152da58d') in 0.018772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/preach.mp3
+  artifactKey: Guid(cc8d9465d28e7ed4fba88df61e4cfa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/preach.mp3 using Guid(cc8d9465d28e7ed4fba88df61e4cfa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3582de0a41907725aa1c3d26446c8e55') in 0.017441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/fotoCura (online-audio-converter.com).mp3
+  artifactKey: Guid(7ede515b4ca5fa44e9d3c963090f63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/fotoCura (online-audio-converter.com).mp3 using Guid(7ede515b4ca5fa44e9d3c963090f63c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b520d62b073e5a8a4638506fb7b325d') in 0.017679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Cuchillo.wav
+  artifactKey: Guid(9f6b317aab5cef3478596b8967e99e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Cuchillo.wav using Guid(9f6b317aab5cef3478596b8967e99e27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5934446cf0a92843e59f8092534e1fe') in 0.020654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Inicio-mex.wav
+  artifactKey: Guid(5189f7d19e7c38f459901df4b07c1dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Inicio-mex.wav using Guid(5189f7d19e7c38f459901df4b07c1dca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b96e27f2a7cc54a913280d999144c7') in 0.016571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/AdiosMujer.mp3
+  artifactKey: Guid(f78918186d1f721488ee504268dbf8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/AdiosMujer.mp3 using Guid(f78918186d1f721488ee504268dbf8ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3482a147c325029dc22057d201b688') in 0.018948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/fugitivo.mp3
+  artifactKey: Guid(cc1327819d9a9a448838ac315d10fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/fugitivo.mp3 using Guid(cc1327819d9a9a448838ac315d10fbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27f5543b888452d34c44bd89ab32b3f0') in 0.018564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Sleep_Atmospheres_Birds_Far_Away.mp3
+  artifactKey: Guid(5d205e032a5be9e4ba126c46678fc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Sleep_Atmospheres_Birds_Far_Away.mp3 using Guid(5d205e032a5be9e4ba126c46678fc27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16651b137edfd6ca9ff26c177e603c1c') in 0.017654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/Oowake_chamanisme_Hé_yama_yo.mp3
+  artifactKey: Guid(80f436e91330fba4b8d43abd23ca03c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/Oowake_chamanisme_Hé_yama_yo.mp3 using Guid(80f436e91330fba4b8d43abd23ca03c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c81f2175247937c04eafcb1bd9dd2e') in 0.020498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.416433 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/niño.wav
+  artifactKey: Guid(3849ace8397d1474f9e1e5e91e88ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/niño.wav using Guid(3849ace8397d1474f9e1e5e91e88ac24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f158ad92b26ccd84019b2556e92feec4') in 0.007111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.017640 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers/niño (online-audio-converter.com).mp3
+  artifactKey: Guid(0d58744d0f834b5449c6c7974dc43e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers/niño (online-audio-converter.com).mp3 using Guid(0d58744d0f834b5449c6c7974dc43e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a576b1e28c6f5733a3f739deba5707') in 0.022327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.978340 seconds.
+  path: Assets/Resources/audios/BlessedRThePeaceMakers
+  artifactKey: Guid(4c80d96524c769042853ca08e7b0e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/BlessedRThePeaceMakers using Guid(4c80d96524c769042853ca08e7b0e177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02b5699592c50141f56ff43c4aba45d') in 0.007137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.192602 seconds.
+  path: Assets/Resources/audios/vocodes_dc52e976-ac52-4eee-a945-48ad68fd3b43.wav
+  artifactKey: Guid(2ebae5570bce9a141ba5f5757e366344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/audios/vocodes_dc52e976-ac52-4eee-a945-48ad68fd3b43.wav using Guid(2ebae5570bce9a141ba5f5757e366344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c4b89f982111591c4be5fd8f0930a7') in 0.026680 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015341 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.27 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\Sara\Desktop\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:265 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\Sara\Desktop\RAA\Red-Dead-RAAedemption\OpenXRQuest2\Library\PackageCache\com.unity.xr.oculus@1.12.1\Runtime\OculusLoader.cs:250 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <c961074fa4b84075ac22bbec328bf218>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1207ms)
+		BeginReloadAssembly (189ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (907ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (293ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (358ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (223ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (1ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.17 ms, found 17 plugins.
+Preloading 2 native plugins for Editor in 0.12 ms.
+Unloading 2621 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 127.6 MB.
+System memory in use after: 127.8 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 3139.
+Total: 3.374600 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.968700 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+>>>>>>> 803392cdc94752037ddfb0cce953446473979782

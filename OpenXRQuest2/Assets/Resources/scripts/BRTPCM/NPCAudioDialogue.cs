@@ -40,9 +40,7 @@ public class NPCAudioDialogue : MonoBehaviour
     {
         if(collider.gameObject.CompareTag("Player") && !audioGoodByeWasPlayed)
         {
-            while(audioHello.isPlaying){
-                //espera a que acabe
-            }
+         
                 
 
             StartCoroutine(SayGoodBye());
