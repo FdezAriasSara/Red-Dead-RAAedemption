@@ -24,7 +24,7 @@ public class ChangeAmbienceMusic : MonoBehaviour
             GameObject magicAmb = GameObject.FindGameObjectsWithTag("ambienceMagic")[0];
             magicAmb.GetComponent<AudioSource>().mute = false;
             magicAmb.SetActive(true);
-
+            
         }
     }
 }

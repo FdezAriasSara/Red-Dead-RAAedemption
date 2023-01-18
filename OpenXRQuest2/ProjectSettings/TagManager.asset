@@ -41,6 +41,7 @@ TagManager:
   - ambienceMagic
   - cerrarCamino
   - chaman
+  - mohawk
   layers:
   - Default
   - TransparentFX

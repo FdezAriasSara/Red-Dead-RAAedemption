@@ -38,10 +38,10 @@ public class NPCAudioDialogue : MonoBehaviour
 
     void OnTriggerExit(Collider collider)
     {
-        if(collider.gameObject.CompareTag("Player") && !audioGoodByeWasPlayed)
+        if(collider.gameObject.CompareTag("Player")&&audioGoodbye!=null && !audioGoodByeWasPlayed)
         {
          
-                
+            
 
             StartCoroutine(SayGoodBye());
         }
