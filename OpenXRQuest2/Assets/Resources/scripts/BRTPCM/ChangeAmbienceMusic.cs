@@ -21,9 +21,11 @@ public class ChangeAmbienceMusic : MonoBehaviour
                 //Inicialmente los arboles que impiden dar la vuelta se encuentran bajo tierra. y=1115.903
                 arbol.transform.Translate(0,0.2203373f,0);
             }
+    
             GameObject magicAmb = GameObject.FindGameObjectsWithTag("ambienceMagic")[0];
-            magicAmb.GetComponent<AudioSource>().mute = false;
-            magicAmb.SetActive(true);
+            AudioSource magicSound= magicAmb.GetComponent<AudioSource>();
+            magicSound.mute = false;
+            magicSound.Play();
             
         }
     }
