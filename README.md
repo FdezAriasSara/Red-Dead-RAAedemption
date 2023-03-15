@@ -29,7 +29,7 @@ En la aventura de hoy, acompañaremos a Melquiades en su decimocuarta parada esc
   * [Sara Fernández Arias](https://github.com/FdezAriasSara)
   
 * Escena “El mejor mecánico de la galaxia”:
-  * [Álvaro López Fueyo(https://github.com/seirin16)
+  * [Álvaro López Fueyo](https://github.com/seirin16)
 
 * Escena “Tirador (in)experto”: 
   * [Daniel Ferreira Gómez](https://github.com/fergodani)
