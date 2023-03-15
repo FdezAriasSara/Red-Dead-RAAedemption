@@ -6,7 +6,7 @@ Melquiades “El Relajao” Waterbean es perseguido por la ley en media docena d
 En la aventura de hoy, acompañaremos a Melquiades en su decimocuarta parada escapando de la ley: Virgin Maldonado. A los habitantes del pueblo no les gustan los forasteros, pero Melquiades hará lo que pueda para ganarse a los Maldonadenses, intentando no recaer en su “afición por lo ajeno”.
 
 [ Final version trailer](https://www.youtube.com/watch?v=Cz7woG3JWpg&ab_channel=sarq)                                                                               
-[storyboard trailer] (https://youtu.be/H14x2IDU_0k)
+[storyboard railer](https://youtu.be/H14x2IDU_0k)
 
 ![image](https://user-images.githubusercontent.com/79209608/225440187-a89041bb-5c11-4f69-8113-7eabcf1e765c.png)
 
