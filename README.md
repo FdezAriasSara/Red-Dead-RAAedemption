@@ -18,22 +18,24 @@ En la aventura de hoy, acompañaremos a Melquiades en su decimocuarta parada esc
 
 * Creación y descripción de personajes, diálogos y guion & Excena "Inspector Relajao": 
 
-  * Martín Beltrán Díaz
+  * [Martín Beltrán Díaz](https://github.com/UO276244)
+  
 
 * Mapa Inkarnate & escena "El toro de Osborn(e): 
-  * Stelian Adrian Stanci
+  * [Stelian Adrian Stanci](https://github.com/UO277653)
+  
 
 * Storyboard & Escena “Bienaventurados los pacificadores " y sus personajes:  
-  * Sara Fernández Arias
+  * [Sara Fernández Arias](https://github.com/FdezAriasSara)
   
 * Escena “El mejor mecánico de la galaxia”:
-  * Álvaro López Fueyo
+  * [Álvaro López Fueyo(https://github.com/seirin16)
 
 * Escena “Tirador (in)experto”: 
-  * Daniel Ferreira Gómez
+  * [Daniel Ferreira Gómez](https://github.com/fergodani)
   
 * Escena “El enemigo de mi amigo”:
-  * Pelayo González García
+  * [Pelayo González García]
 
 
 ## StoryBoard y Documentación completa
